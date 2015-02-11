@@ -1,0 +1,2226 @@
+﻿Log file open, 02/11/15 14:36:13
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.11-14.36.13:200][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.02.11-14.36.13:244][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.11-14.36.13:278][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.11-14.36.13:291][  0]LogInit: Object subsystem initialized
+[2015.02.11-14.36.13:295][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.11-14.36.13:295][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.11-14.36.13:295][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.02.11-14.36.13:295][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.11-14.36.13:296][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.11-14.36.13:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.11-14.36.13:300][  0]LogInit: Computer: RINGLETLTD18-PC
+[2015.02.11-14.36.13:300][  0]LogInit: User: Fulltime
+[2015.02.11-14.36.13:300][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.11-14.36.13:300][  0]LogInit: High frequency timer resolution =3.125009 MHz
+[2015.02.11-14.36.13:300][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.02.11-14.36.13:300][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.11-14.36.13:300][  0]LogMemory: Process Physical Memory: 63.00 MB used, 63.00 MB peak
+[2015.02.11-14.36.13:300][  0]LogMemory: Process Virtual Memory: 40.51 MB used, 40.51 MB peak
+[2015.02.11-14.36.13:300][  0]LogMemory: Physical Memory: 1736.21 MB used, 8127.42 MB total
+[2015.02.11-14.36.13:300][  0]LogMemory: Virtual Memory: 273.47 MB used, 8388608.00 MB total
+[2015.02.11-14.36.13:320][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.02.11-14.36.13:321][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.02.11-14.36.13:321][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.11-14.36.13:324][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.11-14.36.13:329][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.11-14.36.13:370][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.11-14.36.13:485][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.11-14.36.17:493][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.11-14.36.17:812][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.11-14.36.17:850][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.11-14.36.17:886][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.11-14.36.17:886][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.02.11-14.36.17:886][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fulltime/Documents/Level26/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.11-14.36.17:886][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.11-14.36.17:942][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.11-14.36.17:953][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fulltime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.11-14.36.18:080][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.11-14.36.18:080][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.11-14.36.18:260][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.11-14.36.18:262][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.11-14.36.18:395][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.11-14.36.18:978][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.11-14.36.19:137][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Fulltime/Documents/Level26/MyProject4/Binaries/Win64. Error: 0
+[2015.02.11-14.36.19:225][  0]SourceControl: Info Source control is disabled
+[2015.02.11-14.36.19:225][  0]SourceControl: Info Source control is disabled
+[2015.02.11-14.36.19:230][  0]SourceControl: Info Source control is disabled
+[2015.02.11-14.36.19:303][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2015.02.11-14.36.19:303][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2015.02.11-14.36.19:347][  0]LogEngine: Initializing Engine...
+[2015.02.11-14.36.19:451][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.11-14.36.19:471][  0]LogInit: FAudioDevice initialized.
+[2015.02.11-14.36.19:485][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.11-14.36.19:506][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.11-14.36.19:508][  0]LogInit: Texture streaming: Enabled
+[2015.02.11-14.36.19:536][  0]LogInit: Transaction tracking system initialized
+[2015.02.11-14.36.19:596][  0]BlueprintLog: New page: Editor Load
+[2015.02.11-14.36.19:619][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.02.11-14.36.19:619][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.11-14.36.19:948][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.11-14.36.20:194][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.11-14.36.20:337][  0]LogConsoleResponse:Display: 
+[2015.02.11-14.36.20:471][  0]SourceControl: Info Source control is disabled
+[2015.02.11-14.36.20:471][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.11-14.36.20:472][  0]LightingResults: New page: Lighting Build
+[2015.02.11-14.36.20:478][  0]MapCheck: New page: Map Check
+[2015.02.11-14.36.20:478][  0]LightingResults: New page: Lighting Build
+[2015.02.11-14.36.20:490][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001351CF40
+[2015.02.11-14.36.20:957][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.11-14.36.20:957][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.11-14.36.20:957][  0]Cmd: MAP CHECKDEP
+[2015.02.11-14.36.20:957][  0]MapCheck: New page: Example_Map - 11 Feb 2015 14:36:20
+[2015.02.11-14.36.21:028][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 70.667ms to complete.
+[2015.02.11-14.36.21:028][  0]LogFileHelpers: Loading map 'Example_Map' took 0.557
+[2015.02.11-14.36.21:136][  0]LogCollectionManager: Loaded 0 collections in 0.000761 seconds
+[2015.02.11-14.36.21:221][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.11-14.36.21:240][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.11-14.36.21:263][  0]LogLoad: Full Startup: 9.93 seconds (BP compile: 0.17 seconds)
+[2015.02.11-14.36.21:612][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.11-14.36.21:779][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.11-14.36.23:287][  5]LogAssetRegistry: Asset discovery search completed in 3.6781 seconds
+[2015.02.11-14.36.23:598][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.11-14.36.26:673][315]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.11-14.36.26:673][315]PIE: New page: PIE session: Example_Map (11 Feb 2015 14:36:26)
+[2015.02.11-14.36.26:758][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084930s)
+[2015.02.11-14.36.26:759][315]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2015.02.11-14.36.26:760][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.086110s)
+[2015.02.11-14.36.26:809][315]LogWorld: Game class is 'MyGame_C'
+[2015.02.11-14.36.26:813][315]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.11-14.36.26:815][315]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.11-14.36.26
+[2015.02.11-14.36.26:815][315]LogWorld: Bringing up level for play took: 0.002040
+[2015.02.11-14.36.26:819][315]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.956
+[2015.02.11-14.36.26:820][315]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:892][316]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:919][317]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:931][318]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:939][319]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:950][320]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:959][321]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:968][322]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:976][323]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:984][324]LogBlueprintUserMessages: None
+[2015.02.11-14.36.26:992][325]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:001][326]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:009][327]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:018][328]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:026][329]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:035][330]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:043][331]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:051][332]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:060][333]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:068][334]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:076][335]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:085][336]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:093][337]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:101][338]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:110][339]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:118][340]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:126][341]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:135][342]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:143][343]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:151][344]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:160][345]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:168][346]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:177][347]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:186][348]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:195][349]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:203][350]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:212][351]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:220][352]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:228][353]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:237][354]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:245][355]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:253][356]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:261][357]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:270][358]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:278][359]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:287][360]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:295][361]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:303][362]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:311][363]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:320][364]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:328][365]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:336][366]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:345][367]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:353][368]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:361][369]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:370][370]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:378][371]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:386][372]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:395][373]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:403][374]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:411][375]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:420][376]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:428][377]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:437][378]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:445][379]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:453][380]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:461][381]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:470][382]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:478][383]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:487][384]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:495][385]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:503][386]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:512][387]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:520][388]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:528][389]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:536][390]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:545][391]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:553][392]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:561][393]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:570][394]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:579][395]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:587][396]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:595][397]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:604][398]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:612][399]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:620][400]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:629][401]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:637][402]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:645][403]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:654][404]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:662][405]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:670][406]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:679][407]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:687][408]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:695][409]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:704][410]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:712][411]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:720][412]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:729][413]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:737][414]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:745][415]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:756][416]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:763][417]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:771][418]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:780][419]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:788][420]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:796][421]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:805][422]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:813][423]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:821][424]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:830][425]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:838][426]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:847][427]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:855][428]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:863][429]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:872][430]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:880][431]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:888][432]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:897][433]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:905][434]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:913][435]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:922][436]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:930][437]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:938][438]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:946][439]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:955][440]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:963][441]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:972][442]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:980][443]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:988][444]LogBlueprintUserMessages: None
+[2015.02.11-14.36.27:996][445]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:005][446]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:013][447]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:022][448]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:030][449]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:038][450]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:046][451]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:055][452]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:063][453]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:071][454]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:080][455]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:088][456]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:096][457]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:105][458]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:113][459]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:121][460]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:130][461]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:138][462]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:146][463]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:155][464]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:163][465]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:171][466]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:180][467]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:188][468]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:196][469]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:205][470]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:213][471]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:221][472]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:230][473]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:238][474]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:246][475]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:255][476]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:263][477]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:271][478]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:280][479]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:288][480]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:296][481]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:305][482]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:313][483]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:321][484]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:330][485]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:338][486]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:346][487]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:355][488]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:363][489]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:372][490]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:380][491]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:388][492]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:396][493]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:405][494]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:413][495]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:422][496]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:430][497]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:438][498]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:446][499]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:455][500]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:463][501]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:472][502]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:480][503]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:488][504]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:496][505]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:505][506]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:513][507]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:521][508]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:530][509]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:538][510]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:546][511]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:555][512]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:563][513]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:571][514]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:580][515]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:588][516]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:596][517]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:605][518]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:613][519]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:621][520]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:630][521]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:638][522]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:646][523]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:655][524]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:663][525]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:671][526]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:680][527]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:688][528]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:696][529]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:705][530]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:713][531]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:721][532]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:730][533]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:738][534]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:746][535]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:755][536]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:763][537]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:771][538]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:780][539]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:788][540]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:796][541]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:805][542]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:813][543]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:822][544]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:830][545]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:838][546]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:847][547]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:855][548]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:863][549]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:871][550]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:880][551]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:888][552]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:896][553]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:905][554]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:913][555]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:922][556]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:930][557]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:938][558]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:946][559]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:955][560]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:963][561]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:972][562]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:980][563]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:988][564]LogBlueprintUserMessages: None
+[2015.02.11-14.36.28:996][565]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:005][566]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:013][567]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:021][568]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:030][569]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:038][570]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:046][571]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:055][572]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:063][573]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:071][574]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:080][575]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:088][576]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:096][577]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:105][578]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:113][579]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:121][580]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:130][581]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:138][582]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:146][583]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:155][584]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:163][585]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:171][586]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:180][587]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:188][588]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:196][589]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:205][590]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:213][591]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:222][592]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:230][593]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:238][594]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:246][595]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:255][596]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:263][597]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:271][598]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:280][599]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:288][600]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:296][601]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:305][602]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:313][603]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:322][604]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:330][605]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:338][606]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:346][607]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:355][608]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:363][609]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:372][610]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:380][611]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:388][612]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:396][613]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:405][614]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:413][615]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:421][616]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:430][617]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:438][618]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:447][619]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:455][620]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:463][621]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:472][622]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:480][623]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:488][624]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:496][625]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:505][626]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:513][627]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:522][628]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:530][629]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:538][630]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:546][631]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:555][632]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:563][633]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:572][634]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:580][635]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:588][636]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:597][637]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:605][638]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:613][639]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:621][640]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:630][641]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:638][642]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:647][643]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:656][644]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:664][645]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:672][646]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:681][647]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:689][648]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:698][649]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:706][650]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:714][651]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:723][652]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:731][653]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:739][654]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:748][655]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:756][656]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:764][657]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:773][658]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:781][659]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:789][660]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:797][661]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:806][662]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:814][663]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:823][664]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:831][665]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:839][666]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:848][667]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:856][668]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:864][669]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:873][670]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:881][671]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:889][672]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:898][673]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:906][674]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:914][675]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:922][676]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:931][677]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:939][678]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:948][679]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:956][680]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:964][681]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:973][682]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:981][683]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:989][684]LogBlueprintUserMessages: None
+[2015.02.11-14.36.29:998][685]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:006][686]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:014][687]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:023][688]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:031][689]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:039][690]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:048][691]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:056][692]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:064][693]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:073][694]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:081][695]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:089][696]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:098][697]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:106][698]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:114][699]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:123][700]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:131][701]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:139][702]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:148][703]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:156][704]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:164][705]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:173][706]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:181][707]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:189][708]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:198][709]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:206][710]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:214][711]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:223][712]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:231][713]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:239][714]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:248][715]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:256][716]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:264][717]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:273][718]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:281][719]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:289][720]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:298][721]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:306][722]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:314][723]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:323][724]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:331][725]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:339][726]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:348][727]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:356][728]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:364][729]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:373][730]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:381][731]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:389][732]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:398][733]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:406][734]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:414][735]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:423][736]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:431][737]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:439][738]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:448][739]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:456][740]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:464][741]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:473][742]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:481][743]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:489][744]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:498][745]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:506][746]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:514][747]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:523][748]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:531][749]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:539][750]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:548][751]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:556][752]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:564][753]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:573][754]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:581][755]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:589][756]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:598][757]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:606][758]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:614][759]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:623][760]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:631][761]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:639][762]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:648][763]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:656][764]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:664][765]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:673][766]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:681][767]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:689][768]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:698][769]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:706][770]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:714][771]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:723][772]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:731][773]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:739][774]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:748][775]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:756][776]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:764][777]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:773][778]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:781][779]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:789][780]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:798][781]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:806][782]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:814][783]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:823][784]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:831][785]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:839][786]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:848][787]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:856][788]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:864][789]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:873][790]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:881][791]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:889][792]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:898][793]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:906][794]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:914][795]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:923][796]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:931][797]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:939][798]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:948][799]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:956][800]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:964][801]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:973][802]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:981][803]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:989][804]LogBlueprintUserMessages: None
+[2015.02.11-14.36.30:998][805]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:006][806]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:014][807]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:023][808]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:031][809]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:039][810]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:048][811]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:056][812]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:064][813]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:073][814]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:081][815]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:089][816]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:098][817]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:106][818]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:115][819]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:123][820]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:131][821]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:140][822]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:148][823]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:156][824]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:164][825]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:173][826]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:181][827]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:189][828]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:198][829]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:206][830]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:215][831]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:223][832]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:231][833]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:239][834]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:248][835]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:257][836]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:265][837]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:274][838]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:282][839]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:290][840]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:298][841]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:307][842]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:315][843]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:324][844]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:332][845]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:340][846]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:348][847]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:357][848]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:365][849]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:373][850]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:382][851]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:390][852]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:398][853]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:407][854]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:415][855]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:423][856]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:432][857]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:440][858]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:448][859]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:457][860]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:465][861]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:473][862]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:482][863]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:490][864]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:498][865]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:507][866]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:515][867]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:523][868]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:532][869]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:540][870]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:548][871]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:557][872]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:565][873]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:573][874]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:582][875]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:590][876]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:598][877]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:607][878]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:615][879]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:623][880]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:632][881]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:640][882]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:649][883]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:657][884]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:665][885]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:673][886]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:682][887]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:690][888]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:698][889]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:707][890]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:715][891]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:723][892]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:732][893]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:740][894]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:748][895]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:757][896]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:765][897]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:773][898]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:782][899]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:790][900]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:798][901]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:807][902]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:815][903]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:823][904]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:832][905]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:840][906]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:849][907]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:857][908]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:865][909]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:873][910]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:882][911]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:890][912]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:898][913]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:907][914]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:915][915]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:923][916]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:932][917]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:940][918]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:948][919]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:957][920]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:965][921]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:973][922]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:982][923]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:990][924]LogBlueprintUserMessages: None
+[2015.02.11-14.36.31:998][925]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:007][926]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:015][927]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:023][928]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:032][929]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:040][930]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:049][931]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:057][932]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:065][933]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:074][934]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:082][935]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:091][936]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:099][937]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:107][938]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:116][939]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:124][940]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:132][941]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:141][942]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:149][943]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:157][944]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:166][945]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:174][946]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:182][947]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:191][948]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:199][949]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:207][950]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:216][951]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:224][952]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:232][953]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:241][954]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:249][955]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:257][956]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:266][957]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:274][958]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:282][959]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:291][960]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:299][961]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:307][962]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:316][963]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:324][964]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:332][965]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:341][966]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:349][967]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:357][968]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:366][969]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:374][970]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:383][971]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:391][972]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:399][973]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:407][974]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:416][975]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:424][976]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:432][977]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:441][978]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:449][979]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:458][980]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:466][981]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:474][982]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:483][983]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:491][984]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:499][985]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:507][986]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:516][987]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:524][988]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:532][989]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:541][990]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:549][991]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:558][992]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:566][993]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:574][994]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:582][995]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:591][996]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:599][997]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:607][998]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:616][999]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:624][  0]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:632][  1]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:641][  2]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:649][  3]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:658][  4]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:666][  5]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:674][  6]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:682][  7]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:691][  8]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:699][  9]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:707][ 10]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:716][ 11]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:724][ 12]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:732][ 13]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:741][ 14]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:749][ 15]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:757][ 16]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:766][ 17]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:774][ 18]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:783][ 19]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:791][ 20]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:799][ 21]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:807][ 22]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:816][ 23]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:824][ 24]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:832][ 25]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:841][ 26]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:849][ 27]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:857][ 28]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:866][ 29]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:874][ 30]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:882][ 31]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:891][ 32]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:899][ 33]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:907][ 34]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:916][ 35]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:924][ 36]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:932][ 37]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:941][ 38]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:949][ 39]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:958][ 40]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:966][ 41]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:974][ 42]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:983][ 43]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:991][ 44]LogBlueprintUserMessages: None
+[2015.02.11-14.36.32:999][ 45]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:007][ 46]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:016][ 47]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:024][ 48]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:032][ 49]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:041][ 50]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:049][ 51]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:057][ 52]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:066][ 53]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:074][ 54]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:083][ 55]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:091][ 56]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:099][ 57]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:108][ 58]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:116][ 59]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:124][ 60]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:132][ 61]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:141][ 62]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:149][ 63]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:158][ 64]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:166][ 65]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:174][ 66]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:182][ 67]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:191][ 68]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:199][ 69]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:207][ 70]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:216][ 71]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:224][ 72]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:232][ 73]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:241][ 74]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:249][ 75]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:257][ 76]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:266][ 77]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:274][ 78]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:282][ 79]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:291][ 80]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:299][ 81]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:308][ 82]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:316][ 83]LogBlueprintUserMessages: None
+[2015.02.11-14.36.33:324][ 84]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:333][ 85]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:341][ 86]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:349][ 87]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:357][ 88]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:366][ 89]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:374][ 90]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:383][ 91]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:391][ 92]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:399][ 93]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:408][ 94]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:416][ 95]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:424][ 96]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:433][ 97]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:441][ 98]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:449][ 99]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:458][100]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:466][101]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:474][102]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:483][103]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:491][104]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:499][105]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:508][106]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:516][107]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:524][108]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:532][109]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:541][110]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:549][111]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:558][112]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:566][113]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:574][114]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:583][115]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:591][116]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:599][117]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:607][118]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:616][119]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:624][120]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:633][121]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:641][122]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:649][123]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:657][124]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:666][125]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:674][126]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:682][127]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:691][128]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:699][129]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:708][130]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:716][131]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:724][132]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:732][133]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:741][134]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:749][135]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:757][136]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:766][137]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:774][138]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:783][139]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:791][140]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:799][141]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:808][142]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:816][143]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:824][144]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:833][145]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:841][146]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:849][147]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:858][148]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.33:866][149]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:875][150]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:883][151]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:891][152]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:900][153]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:908][154]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:916][155]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:925][156]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:933][157]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:941][158]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:950][159]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:958][160]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:966][161]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:975][162]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:983][163]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.33:991][164]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:000][165]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:008][166]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:016][167]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:025][168]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:033][169]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:041][170]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:049][171]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:058][172]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:066][173]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:074][174]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:083][175]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:091][176]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:100][177]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:108][178]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:116][179]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:125][180]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:133][181]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:141][182]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:150][183]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:158][184]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:166][185]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:175][186]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:183][187]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:191][188]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:200][189]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:208][190]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:217][191]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:225][192]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:233][193]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:241][194]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:250][195]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:258][196]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:266][197]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:275][198]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:283][199]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:292][200]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:300][201]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:308][202]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:317][203]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:325][204]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:333][205]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:341][206]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:350][207]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:358][208]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:367][209]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:375][210]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:383][211]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:391][212]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:400][213]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:408][214]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:417][215]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:425][216]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:433][217]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:441][218]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:450][219]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:458][220]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:466][221]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:475][222]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:483][223]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:492][224]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:500][225]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:508][226]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:516][227]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:525][228]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:533][229]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:541][230]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:550][231]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:558][232]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:567][233]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:575][234]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:583][235]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:591][236]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:600][237]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:608][238]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:616][239]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:625][240]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:633][241]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:641][242]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:650][243]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:658][244]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:667][245]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:675][246]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:683][247]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:691][248]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:700][249]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:708][250]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:716][251]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:725][252]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:733][253]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:741][254]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:750][255]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:758][256]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:767][257]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:775][258]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:783][259]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:791][260]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:800][261]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:808][262]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:816][263]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:825][264]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:833][265]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:842][266]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:850][267]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:858][268]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:866][269]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:875][270]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:883][271]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:891][272]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:900][273]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:908][274]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:916][275]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:925][276]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:933][277]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:941][278]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:950][279]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:958][280]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:966][281]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:975][282]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:983][283]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.34:991][284]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:000][285]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:008][286]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:016][287]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:025][288]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:033][289]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:041][290]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:050][291]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:058][292]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:066][293]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:075][294]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:083][295]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:091][296]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:100][297]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:108][298]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:116][299]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:125][300]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:133][301]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:142][302]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:150][303]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:158][304]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:167][305]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:175][306]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:184][307]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:192][308]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:200][309]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:208][310]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:217][311]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:225][312]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:233][313]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:242][314]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:250][315]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:258][316]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:267][317]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:275][318]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:284][319]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:292][320]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:300][321]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:308][322]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:317][323]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:325][324]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:334][325]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:342][326]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:350][327]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:358][328]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:367][329]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:375][330]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:383][331]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:392][332]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:400][333]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:408][334]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:417][335]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:425][336]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:433][337]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:442][338]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:450][339]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:458][340]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:467][341]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:475][342]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:484][343]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:492][344]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:500][345]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:508][346]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:517][347]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:525][348]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:534][349]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:542][350]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:550][351]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:559][352]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:567][353]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:575][354]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:584][355]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:592][356]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:600][357]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:609][358]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:617][359]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.35:625][360]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:634][361]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:642][362]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:651][363]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:659][364]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:667][365]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:675][366]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:684][367]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:692][368]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:700][369]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:709][370]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:717][371]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:725][372]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:734][373]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:742][374]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:750][375]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:759][376]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:767][377]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:775][378]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:784][379]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:792][380]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:800][381]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:809][382]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:817][383]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:825][384]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:834][385]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:842][386]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:851][387]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:859][388]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:867][389]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:876][390]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:884][391]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:892][392]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:901][393]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:909][394]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:917][395]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:926][396]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:934][397]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:942][398]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:951][399]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:959][400]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:967][401]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:976][402]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:984][403]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.35:992][404]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:001][405]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:009][406]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:017][407]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:026][408]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:034][409]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:042][410]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:051][411]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:059][412]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:068][413]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:076][414]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:084][415]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:092][416]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:101][417]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:109][418]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:117][419]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:126][420]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:134][421]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:143][422]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:151][423]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:159][424]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:168][425]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:176][426]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:184][427]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:192][428]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:201][429]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:209][430]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:217][431]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:226][432]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:234][433]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:243][434]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:251][435]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:259][436]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:268][437]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:276][438]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:284][439]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:292][440]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:301][441]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:309][442]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:318][443]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:326][444]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:334][445]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:342][446]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:351][447]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:359][448]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:367][449]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:376][450]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:384][451]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:392][452]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:401][453]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:409][454]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:417][455]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:426][456]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:434][457]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:442][458]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:451][459]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:459][460]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:467][461]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:476][462]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:484][463]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:492][464]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:501][465]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:509][466]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:517][467]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:526][468]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:534][469]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:543][470]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:551][471]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:559][472]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:567][473]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:576][474]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:584][475]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:592][476]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:601][477]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:609][478]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:617][479]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:626][480]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:634][481]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:642][482]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:651][483]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:659][484]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:668][485]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:676][486]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:684][487]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:692][488]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:701][489]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:709][490]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:718][491]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:726][492]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:734][493]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:742][494]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:751][495]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:759][496]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:767][497]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:776][498]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:784][499]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:792][500]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:801][501]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:809][502]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:817][503]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:826][504]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:834][505]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:842][506]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:851][507]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:859][508]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:867][509]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:876][510]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:884][511]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:892][512]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:901][513]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:909][514]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:917][515]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:926][516]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:934][517]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:942][518]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:951][519]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:959][520]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:968][521]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:976][522]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:984][523]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.36:993][524]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:001][525]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:009][526]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:017][527]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:026][528]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:034][529]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:042][530]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:051][531]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:059][532]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:068][533]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:076][534]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:084][535]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:092][536]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:101][537]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:109][538]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:118][539]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:126][540]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:134][541]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:142][542]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:151][543]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:159][544]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:167][545]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:176][546]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:184][547]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:192][548]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:201][549]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:209][550]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:217][551]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:226][552]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:234][553]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:242][554]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:251][555]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:259][556]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:267][557]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:276][558]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:284][559]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:292][560]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:301][561]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:309][562]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:317][563]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:326][564]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:334][565]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:342][566]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:351][567]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:359][568]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:367][569]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:376][570]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:384][571]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:392][572]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:401][573]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:409][574]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:417][575]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:426][576]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:434][577]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:442][578]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:451][579]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:459][580]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:467][581]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:476][582]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:484][583]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:493][584]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:501][585]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:509][586]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:517][587]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:526][588]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:534][589]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:542][590]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:551][591]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:559][592]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.37:567][593]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:576][594]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:584][595]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:592][596]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:601][597]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:609][598]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:617][599]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:626][600]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:634][601]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:642][602]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:651][603]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:659][604]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:668][605]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:676][606]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:684][607]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:692][608]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:701][609]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:709][610]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:717][611]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:726][612]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:734][613]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:742][614]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:751][615]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:759][616]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:767][617]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:776][618]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:784][619]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:792][620]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:801][621]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:809][622]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:817][623]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:826][624]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:834][625]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:842][626]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:851][627]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:859][628]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:868][629]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:876][630]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:885][631]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:893][632]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:902][633]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:910][634]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:919][635]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:927][636]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:935][637]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:944][638]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:952][639]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:960][640]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:969][641]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:977][642]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:985][643]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.37:994][644]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:002][645]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:010][646]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:019][647]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:027][648]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:035][649]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:044][650]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:052][651]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:060][652]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:069][653]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:077][654]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:085][655]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:094][656]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:102][657]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:110][658]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:119][659]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:127][660]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:135][661]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:144][662]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:152][663]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:160][664]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:169][665]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:177][666]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:185][667]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:194][668]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:202][669]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:210][670]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:219][671]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:227][672]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:235][673]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:244][674]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:252][675]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:261][676]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:269][677]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:277][678]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:286][679]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:294][680]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:303][681]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:311][682]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:320][683]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:328][684]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:336][685]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:344][686]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:353][687]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:361][688]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:369][689]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:378][690]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:386][691]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:394][692]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:403][693]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:411][694]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:419][695]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:428][696]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:436][697]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:444][698]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:453][699]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:461][700]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:469][701]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:478][702]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:486][703]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:494][704]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:503][705]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:511][706]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:519][707]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:528][708]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:536][709]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:544][710]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:553][711]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:561][712]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:569][713]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:578][714]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:586][715]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:594][716]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:603][717]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:611][718]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:619][719]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:628][720]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:636][721]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:644][722]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:653][723]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:661][724]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:669][725]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:678][726]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:686][727]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:694][728]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:703][729]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:711][730]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:719][731]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:728][732]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:736][733]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:744][734]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:753][735]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:761][736]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:769][737]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:778][738]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:786][739]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:794][740]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:803][741]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:811][742]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:819][743]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:828][744]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:836][745]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:845][746]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:853][747]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:861][748]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:870][749]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:878][750]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:886][751]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:894][752]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:903][753]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:911][754]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:919][755]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:928][756]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:936][757]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:945][758]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:953][759]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:961][760]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:969][761]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:978][762]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:986][763]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.38:995][764]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:003][765]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:011][766]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:019][767]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:028][768]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:036][769]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:045][770]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:053][771]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:061][772]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:070][773]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:078][774]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:086][775]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:094][776]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:103][777]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:111][778]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:119][779]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:128][780]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:136][781]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:145][782]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:153][783]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:161][784]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:170][785]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:178][786]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:186][787]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:195][788]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:203][789]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:211][790]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:219][791]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:228][792]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:236][793]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:244][794]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:253][795]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:261][796]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:270][797]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:278][798]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:286][799]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:295][800]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:303][801]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:311][802]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:320][803]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:328][804]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:336][805]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:345][806]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:353][807]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:361][808]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:369][809]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:378][810]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:386][811]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:395][812]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:403][813]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:411][814]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:420][815]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:428][816]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:436][817]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:445][818]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:453][819]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:461][820]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:470][821]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:478][822]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:486][823]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:495][824]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:503][825]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:511][826]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:520][827]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:528][828]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:536][829]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:545][830]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:553][831]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:561][832]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:570][833]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:578][834]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:586][835]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:595][836]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:603][837]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:611][838]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:620][839]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:628][840]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:636][841]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:645][842]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:653][843]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:661][844]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:670][845]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:678][846]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:686][847]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:695][848]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:703][849]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:711][850]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:720][851]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:728][852]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:736][853]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:745][854]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:753][855]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:761][856]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:770][857]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:778][858]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:786][859]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:795][860]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:803][861]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:811][862]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:820][863]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:828][864]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:836][865]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:845][866]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:853][867]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:861][868]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:870][869]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:878][870]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:886][871]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:895][872]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:903][873]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:911][874]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:920][875]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:928][876]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:936][877]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:945][878]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:953][879]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:961][880]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:970][881]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:978][882]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:986][883]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.39:995][884]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:003][885]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:011][886]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:020][887]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:028][888]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:036][889]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:045][890]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:053][891]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:061][892]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:070][893]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:078][894]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:086][895]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:095][896]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:103][897]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:111][898]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:120][899]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:128][900]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:136][901]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:145][902]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:153][903]LogBlueprintUserMessages: SM_MatPreviewMesh_02_3
+[2015.02.11-14.36.40:189][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.11-14.36.40:212][904]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B0351C0
+[2015.02.11-14.36.58:640][ 85]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.11-14.36.58:640][ 85]PIE: New page: PIE session: Example_Map (11 Feb 2015 14:36:58)
+[2015.02.11-14.36.58:717][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076599s)
+[2015.02.11-14.36.58:718][ 85]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2015.02.11-14.36.58:718][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.077657s)
+[2015.02.11-14.36.58:753][ 85]LogWorld: Game class is 'MyGame_C'
+[2015.02.11-14.36.58:756][ 85]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.11-14.36.58:757][ 85]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.11-14.36.58
+[2015.02.11-14.36.58:758][ 85]LogWorld: Bringing up level for play took: 0.001855
+[2015.02.11-14.36.58:761][ 85]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.898
+[2015.02.11-14.36.58:762][ 85]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:811][ 86]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:826][ 87]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:847][ 88]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:862][ 89]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:879][ 90]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:890][ 91]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:904][ 92]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:918][ 93]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:932][ 94]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:942][ 95]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:957][ 96]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:965][ 97]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:973][ 98]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:982][ 99]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:990][100]LogBlueprintUserMessages: None
+[2015.02.11-14.36.58:998][101]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:007][102]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:015][103]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:023][104]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:032][105]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:040][106]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:048][107]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:057][108]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:067][109]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:074][110]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:082][111]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:090][112]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:099][113]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:107][114]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:115][115]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:124][116]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:132][117]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:140][118]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:149][119]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:158][120]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:166][121]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:174][122]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:183][123]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:191][124]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:199][125]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:208][126]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:216][127]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:224][128]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:233][129]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:241][130]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:249][131]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:258][132]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:266][133]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:274][134]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:283][135]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:291][136]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:299][137]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:308][138]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:316][139]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:324][140]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:333][141]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:341][142]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:349][143]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:358][144]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:366][145]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:374][146]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:383][147]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:391][148]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:399][149]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:408][150]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:416][151]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:424][152]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:433][153]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:441][154]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:449][155]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:458][156]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:466][157]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:474][158]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:483][159]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:491][160]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:500][161]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:508][162]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:516][163]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:524][164]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.36.59:533][165]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:541][166]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:549][167]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:558][168]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:566][169]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:574][170]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:583][171]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:591][172]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:599][173]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:608][174]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:616][175]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:624][176]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:633][177]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:641][178]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:649][179]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:658][180]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:666][181]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:674][182]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.36.59:683][183]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:691][184]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:699][185]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:708][186]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:716][187]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:724][188]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:733][189]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:741][190]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:749][191]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:758][192]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:766][193]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:774][194]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:783][195]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:791][196]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:799][197]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:808][198]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:816][199]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:824][200]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:833][201]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:841][202]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:849][203]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:858][204]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:866][205]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:874][206]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:883][207]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:891][208]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:899][209]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:908][210]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:916][211]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:924][212]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:933][213]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:941][214]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:949][215]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:958][216]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:966][217]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:974][218]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:983][219]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:991][220]LogBlueprintUserMessages: None
+[2015.02.11-14.36.59:999][221]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:008][222]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:016][223]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:024][224]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:033][225]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:041][226]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:049][227]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:058][228]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:066][229]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:074][230]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:083][231]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:091][232]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:099][233]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:108][234]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:116][235]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:124][236]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:133][237]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:141][238]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:149][239]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:158][240]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:166][241]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:174][242]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:183][243]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:191][244]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:199][245]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:208][246]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:216][247]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:224][248]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:233][249]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:241][250]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:249][251]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:258][252]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:266][253]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:274][254]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:283][255]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:291][256]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:299][257]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:308][258]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:316][259]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:324][260]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:333][261]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:341][262]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:349][263]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:358][264]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:366][265]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:374][266]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:383][267]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:391][268]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:399][269]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:408][270]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:416][271]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:424][272]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:433][273]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:441][274]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:449][275]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:458][276]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:466][277]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:474][278]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:483][279]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:491][280]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:499][281]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:508][282]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:516][283]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:524][284]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:533][285]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:541][286]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:549][287]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:558][288]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:566][289]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:574][290]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:583][291]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:591][292]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:599][293]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:608][294]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:616][295]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:624][296]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:633][297]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:641][298]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:649][299]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:658][300]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:666][301]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:674][302]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:683][303]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:691][304]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:699][305]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:708][306]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:716][307]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:724][308]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:733][309]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:741][310]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:749][311]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:758][312]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:766][313]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:774][314]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:783][315]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:791][316]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:799][317]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:808][318]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:816][319]LogBlueprintUserMessages: None
+[2015.02.11-14.37.00:824][320]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.37.00:833][321]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.37.00:841][322]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.37.00:849][323]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.37.00:858][324]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.37.00:866][325]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.11-14.37.00:874][326]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:883][327]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:891][328]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:899][329]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:908][330]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:916][331]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:924][332]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:933][333]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:941][334]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:949][335]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:958][336]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:966][337]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:974][338]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:983][339]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:991][340]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.00:999][341]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:008][342]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:016][343]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:024][344]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:033][345]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:041][346]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:049][347]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:058][348]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:066][349]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:074][350]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:083][351]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:091][352]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:099][353]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:108][354]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:116][355]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:124][356]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:133][357]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:141][358]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:149][359]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:158][360]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:166][361]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:174][362]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:183][363]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:191][364]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:199][365]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:208][366]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:216][367]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:224][368]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:233][369]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:241][370]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:249][371]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:258][372]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:266][373]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:274][374]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:283][375]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:291][376]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:299][377]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:308][378]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:316][379]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:324][380]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:333][381]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:341][382]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:349][383]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:358][384]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:366][385]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:374][386]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:383][387]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:391][388]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:399][389]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:408][390]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:416][391]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:424][392]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:433][393]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:441][394]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:449][395]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:458][396]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:466][397]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:474][398]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:483][399]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:491][400]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:499][401]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:508][402]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:516][403]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:524][404]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:533][405]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:541][406]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:549][407]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:558][408]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:566][409]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:574][410]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:583][411]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:591][412]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:599][413]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:608][414]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:616][415]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:624][416]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:633][417]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:641][418]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:649][419]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:658][420]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:666][421]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:674][422]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:683][423]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:691][424]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:699][425]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:708][426]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:716][427]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:724][428]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:733][429]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:741][430]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.11-14.37.01:808][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F2B5EE0
+[2015.02.11-14.37.07:114][978]Cmd: QUIT_EDITOR
+[2015.02.11-14.37.07:419][978]LogExit: Preparing to exit.
+[2015.02.11-14.37.08:125][978]LogExit: Editor shut down
+[2015.02.11-14.37.08:126][978]LogExit: Transaction tracking system shut down
+[2015.02.11-14.37.08:127][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CBC6D40
+[2015.02.11-14.37.08:150][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001951CD60
+[2015.02.11-14.37.08:150][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000270CC5E0
+[2015.02.11-14.37.08:150][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000270CC220
+[2015.02.11-14.37.08:150][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002708FF60
+[2015.02.11-14.37.08:150][978]LogExit: Object subsystem successfully closed.
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2015.02.11-14.37.08:195][978]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2015.02.11-14.37.08:196][978]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2015.02.11-14.37.08:207][978]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2015.02.11-14.37.08:318][978]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2015.02.11-14.37.08:319][978]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2015.02.11-14.37.08:320][978]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2015.02.11-14.37.08:320][978]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2015.02.11-14.37.08:320][978]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2015.02.11-14.37.08:322][978]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2015.02.11-14.37.08:322][978]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2015.02.11-14.37.08:322][978]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2015.02.11-14.37.08:323][978]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2015.02.11-14.37.08:323][978]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2015.02.11-14.37.08:323][978]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2015.02.11-14.37.08:323][978]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2015.02.11-14.37.08:323][978]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2015.02.11-14.37.08:323][978]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2015.02.11-14.37.08:423][978]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2015.02.11-14.37.08:423][978]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2015.02.11-14.37.08:429][978]LogModuleManager: Shutting down and abandoning module Media (66)
+[2015.02.11-14.37.08:429][978]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2015.02.11-14.37.08:430][978]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module Core (47)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2015.02.11-14.37.08:434][978]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2015.02.11-14.37.08:446][978]LogDerivedDataCache: Shutdown
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.02.11-14.37.08:446][978]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.02.11-14.37.08:447][978]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.11-14.37.08:448][978]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.11-14.37.08:449][978]LogExit: Exiting.
+[2015.02.11-14.37.08:460][978]Log file closed, 02/11/15 14:37:08
