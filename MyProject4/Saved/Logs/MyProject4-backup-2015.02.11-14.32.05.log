@@ -1,0 +1,721 @@
+﻿Log file open, 02/10/15 17:09:31
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.10-17.09.31:865][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.02.10-17.09.31:906][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.10-17.09.31:933][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.10-17.09.31:942][  0]LogInit: Object subsystem initialized
+[2015.02.10-17.09.31:945][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.10-17.09.31:945][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.10-17.09.31:945][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.02.10-17.09.31:945][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.10-17.09.31:946][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.10-17.09.31:946][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.10-17.09.31:950][  0]LogInit: Computer: RINGLETLTD18-PC
+[2015.02.10-17.09.31:950][  0]LogInit: User: Fulltime
+[2015.02.10-17.09.31:950][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.10-17.09.31:950][  0]LogInit: High frequency timer resolution =3.125029 MHz
+[2015.02.10-17.09.31:951][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.02.10-17.09.31:951][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.10-17.09.31:951][  0]LogMemory: Process Physical Memory: 63.57 MB used, 63.57 MB peak
+[2015.02.10-17.09.31:951][  0]LogMemory: Process Virtual Memory: 40.54 MB used, 40.54 MB peak
+[2015.02.10-17.09.31:951][  0]LogMemory: Physical Memory: 2854.03 MB used, 8127.42 MB total
+[2015.02.10-17.09.31:951][  0]LogMemory: Virtual Memory: 273.47 MB used, 8388608.00 MB total
+[2015.02.10-17.09.31:974][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.02.10-17.09.31:974][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.02.10-17.09.31:974][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.10-17.09.31:978][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.10-17.09.31:985][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.10-17.09.32:026][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.10-17.09.32:159][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.10-17.09.36:225][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.10-17.09.36:534][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.10-17.09.36:573][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.10-17.09.36:610][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.10-17.09.36:610][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.02.10-17.09.36:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fulltime/Documents/Level26/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.10-17.09.36:610][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.10-17.09.36:667][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.10-17.09.36:677][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fulltime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.10-17.09.36:807][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.10-17.09.36:807][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.10-17.09.36:995][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.10-17.09.36:998][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.10-17.09.37:129][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.10-17.09.37:713][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.10-17.09.37:875][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Fulltime/Documents/Level26/MyProject4/Binaries/Win64. Error: 0
+[2015.02.10-17.09.37:966][  0]SourceControl: Info Source control is disabled
+[2015.02.10-17.09.37:966][  0]SourceControl: Info Source control is disabled
+[2015.02.10-17.09.37:971][  0]SourceControl: Info Source control is disabled
+[2015.02.10-17.09.38:044][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2015.02.10-17.09.38:044][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2015.02.10-17.09.38:089][  0]LogEngine: Initializing Engine...
+[2015.02.10-17.09.38:193][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.10-17.09.38:211][  0]LogInit: FAudioDevice initialized.
+[2015.02.10-17.09.38:225][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.10-17.09.38:245][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.10-17.09.38:248][  0]LogInit: Texture streaming: Enabled
+[2015.02.10-17.09.38:275][  0]LogInit: Transaction tracking system initialized
+[2015.02.10-17.09.38:336][  0]BlueprintLog: New page: Editor Load
+[2015.02.10-17.09.38:359][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2015.02.10-17.09.38:359][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.10-17.09.38:687][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.10-17.09.38:937][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.10-17.09.39:080][  0]LogConsoleResponse:Display: 
+[2015.02.10-17.09.39:222][  0]SourceControl: Info Source control is disabled
+[2015.02.10-17.09.39:222][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.10-17.09.39:222][  0]LightingResults: New page: Lighting Build
+[2015.02.10-17.09.39:230][  0]MapCheck: New page: Map Check
+[2015.02.10-17.09.39:230][  0]LightingResults: New page: Lighting Build
+[2015.02.10-17.09.39:244][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013694F40
+[2015.02.10-17.09.39:757][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.10-17.09.39:757][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.10-17.09.39:757][  0]Cmd: MAP CHECKDEP
+[2015.02.10-17.09.39:757][  0]MapCheck: New page: Example_Map - 10 Feb 2015 17:09:39
+[2015.02.10-17.09.39:830][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.093ms to complete.
+[2015.02.10-17.09.39:830][  0]LogFileHelpers: Loading map 'Example_Map' took 0.608
+[2015.02.10-17.09.39:947][  0]LogCollectionManager: Loaded 0 collections in 0.001212 seconds
+[2015.02.10-17.09.40:033][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.10-17.09.40:052][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.10-17.09.40:075][  0]LogLoad: Full Startup: 10.08 seconds (BP compile: 0.19 seconds)
+[2015.02.10-17.09.40:424][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.10-17.09.40:591][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.10-17.09.42:760][  7]LogAssetRegistry: Asset discovery search completed in 4.4108 seconds
+[2015.02.10-17.10.05:890][ 57]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.10-17.10.07:512][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:512][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.07:514][153]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.23:967][391]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.02.10-17.10.56:447][226]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.10.56:447][226]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.12.19:295][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.12.19:295][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.12.19:295][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:610][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:611][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:611][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:611][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:611][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:611][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:611][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.13.33:611][694]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.17.56:962][450]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.18.38:428][568]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.10-17.20.45:176][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.10-17.20.45:248][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.072
+[2015.02.10-17.20.45:259][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2015.02.10-17.20.45:304][338]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2015.02.10-17.20.45:304][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2015.02.10-17.20.45:685][338]LogSavePackage: Save=325.682404ms
+[2015.02.10-17.20.45:685][338]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/MyCharacter_Auto1A9AB3BE842648BD32FD599B731F065F9.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2015.02.10-17.20.45:688][338]LogFileHelpers: Auto-saving content packages took 0.440
+[2015.02.10-17.21.25:112][326]BlueprintLog: New page: Compile MyCharacter
+[2015.02.10-17.21.25:254][326]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.10-17.21.25:350][326]BlueprintEditorCompileResults: Info [0715.21] Compile of MyCharacter successful! [in 71 ms]
+[2015.02.10-17.21.26:987][397]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.10-17.21.26:987][397]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.10-17.21.27:020][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.10-17.21.27:038][397]LogPlayLevel: PIE:  Blueprint regeneration took 51 ms (1 blueprints)
+[2015.02.10-17.21.27:038][397]PIE: New page: PIE session: Example_Map (10 Feb 2015 17:21:27)
+[2015.02.10-17.21.27:131][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092609s)
+[2015.02.10-17.21.27:132][397]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2015.02.10-17.21.27:132][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.094106s)
+[2015.02.10-17.21.27:174][397]LogWorld: Game class is 'MyGame_C'
+[2015.02.10-17.21.27:176][397]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.10-17.21.27:176][397]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.10-17.21.27
+[2015.02.10-17.21.27:177][397]LogWorld: Bringing up level for play took: 0.001007
+[2015.02.10-17.21.27:178][397]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.602
+[2015.02.10-17.21.27:187][397]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:243][398]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:264][399]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:283][400]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:302][401]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:321][402]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:339][403]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:358][404]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:376][405]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:394][406]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:412][407]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:431][408]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:449][409]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:467][410]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:485][411]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:502][412]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:520][413]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:538][414]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:555][415]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:574][416]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:592][417]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:609][418]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:627][419]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:644][420]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:662][421]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:680][422]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:698][423]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:715][424]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:733][425]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:751][426]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:769][427]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:787][428]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:805][429]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:824][430]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:843][431]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:861][432]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:878][433]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:896][434]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:914][435]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:931][436]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:949][437]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:967][438]LogBlueprintUserMessages: None
+[2015.02.10-17.21.27:985][439]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:004][440]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:025][441]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:047][442]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:067][443]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:087][444]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:108][445]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:129][446]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:149][447]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:169][448]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:190][449]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:211][450]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:231][451]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:251][452]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:270][453]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:290][454]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:310][455]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:330][456]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:349][457]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:369][458]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:390][459]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:410][460]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:430][461]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:450][462]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:473][463]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:493][464]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:513][465]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:533][466]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:553][467]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:575][468]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:595][469]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:615][470]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:634][471]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:654][472]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:671][473]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:689][474]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:706][475]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:724][476]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:742][477]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:760][478]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:781][479]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:800][480]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:819][481]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:836][482]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:854][483]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:871][484]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:889][485]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:907][486]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:926][487]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:944][488]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:962][489]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:980][490]LogBlueprintUserMessages: None
+[2015.02.10-17.21.28:998][491]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:015][492]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:033][493]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:051][494]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:069][495]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:086][496]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:104][497]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:123][498]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:142][499]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:162][500]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:180][501]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:198][502]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:216][503]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:234][504]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:251][505]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:269][506]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:287][507]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:305][508]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:323][509]LogBlueprintUserMessages: None
+[2015.02.10-17.21.29:340][510]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:358][511]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:376][512]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:393][513]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:411][514]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:430][515]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:448][516]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:466][517]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:483][518]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:502][519]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:520][520]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:538][521]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:556][522]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:573][523]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:591][524]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:608][525]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:626][526]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:644][527]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:662][528]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:680][529]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:697][530]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:715][531]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:733][532]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:751][533]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:769][534]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:786][535]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:804][536]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:822][537]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:840][538]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:858][539]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:875][540]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:893][541]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:911][542]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:929][543]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:947][544]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:965][545]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.29:982][546]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:001][547]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:019][548]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:037][549]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:054][550]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:072][551]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:090][552]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:108][553]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:126][554]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:144][555]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:163][556]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:180][557]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:198][558]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:216][559]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:233][560]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:251][561]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:269][562]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:286][563]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:304][564]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:322][565]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:340][566]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:358][567]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:375][568]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:393][569]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:411][570]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:429][571]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:447][572]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:465][573]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:482][574]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:501][575]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:519][576]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:537][577]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:555][578]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:574][579]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:591][580]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:609][581]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:627][582]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:645][583]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:663][584]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:681][585]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:698][586]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:716][587]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:734][588]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:752][589]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:769][590]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:788][591]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:806][592]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:823][593]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:841][594]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:859][595]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:876][596]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:894][597]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:912][598]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:931][599]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:949][600]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:967][601]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.30:984][602]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:002][603]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:020][604]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:038][605]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:056][606]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:073][607]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:091][608]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:109][609]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:127][610]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:144][611]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:162][612]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:181][613]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:199][614]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:217][615]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:235][616]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:253][617]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:272][618]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:290][619]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:308][620]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:326][621]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:344][622]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:362][623]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:381][624]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:398][625]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:416][626]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:434][627]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:452][628]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:470][629]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:487][630]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:504][631]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:522][632]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:540][633]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:558][634]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:575][635]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:593][636]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:612][637]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:632][638]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:654][639]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:676][640]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:696][641]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:716][642]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:736][643]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:758][644]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:779][645]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:800][646]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:821][647]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:842][648]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:863][649]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:883][650]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:903][651]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:924][652]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:944][653]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:964][654]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.31:984][655]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:005][656]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:025][657]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:045][658]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:066][659]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:086][660]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:107][661]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:127][662]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:148][663]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:168][664]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:188][665]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:208][666]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:229][667]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:249][668]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:270][669]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:290][670]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:308][671]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:325][672]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:343][673]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:360][674]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:377][675]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:395][676]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:413][677]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:431][678]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:449][679]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:467][680]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:484][681]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:502][682]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:521][683]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:539][684]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:557][685]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:574][686]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:592][687]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:610][688]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:627][689]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:645][690]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:663][691]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:681][692]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:699][693]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:717][694]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:735][695]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:753][696]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.32:771][697]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:790][698]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:810][699]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:829][700]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:846][701]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:864][702]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:882][703]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:900][704]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:918][705]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:936][706]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:954][707]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:972][708]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.32:990][709]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:008][710]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:026][711]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:044][712]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:062][713]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:080][714]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:098][715]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:116][716]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:133][717]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:151][718]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:169][719]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:187][720]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:205][721]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:223][722]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:241][723]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:258][724]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:276][725]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:294][726]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:312][727]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:330][728]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:347][729]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:366][730]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:383][731]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:401][732]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:419][733]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:437][734]LogBlueprintUserMessages: BoxChair_C_0
+[2015.02.10-17.21.33:455][735]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:472][736]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:490][737]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:508][738]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:525][739]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:543][740]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:561][741]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:579][742]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:597][743]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:614][744]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:632][745]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:650][746]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:667][747]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:685][748]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:703][749]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:721][750]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:739][751]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:758][752]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:775][753]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:793][754]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:811][755]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:829][756]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:847][757]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:865][758]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:883][759]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:901][760]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:919][761]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:937][762]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:955][763]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:973][764]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.33:992][765]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:010][766]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:028][767]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:046][768]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:065][769]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:083][770]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:101][771]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:120][772]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:137][773]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:156][774]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:174][775]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:192][776]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:210][777]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:228][778]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:247][779]LogBlueprintUserMessages: BoxChair_C_1
+[2015.02.10-17.21.34:341][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002474A980
+[2015.02.10-17.22.40:396][972]BlueprintLog: New page: Compile MyCharacter
+[2015.02.10-17.22.40:534][972]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.10-17.22.40:638][972]BlueprintEditorCompileResults: Info [0790.49] Compile of MyCharacter successful! [in 68 ms]
+[2015.02.10-17.26.17:300][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.10-17.26.17:370][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.10-17.26.17:728][514]LogSavePackage: Save=347.019806ms
+[2015.02.10-17.26.17:728][514]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/MyCharacter3FBEAA7342397FA4630AC3B607CEBF0A.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/MyCharacter.uasset'
+[2015.02.10-17.33.18:051][942]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.10-17.33.18:781][943]Cmd: QUIT_EDITOR
+[2015.02.10-17.33.19:227][943]LogExit: Preparing to exit.
+[2015.02.10-17.33.19:927][943]LogExit: Editor shut down
+[2015.02.10-17.33.19:927][943]LogExit: Transaction tracking system shut down
+[2015.02.10-17.33.19:928][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C8AE980
+[2015.02.10-17.33.19:930][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018D08400
+[2015.02.10-17.33.19:930][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018F51620
+[2015.02.10-17.33.19:930][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018F519E0
+[2015.02.10-17.33.19:930][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018F51C60
+[2015.02.10-17.33.19:930][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FE1C900
+[2015.02.10-17.33.19:931][943]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000127C05E0
+[2015.02.10-17.33.19:955][943]LogExit: Object subsystem successfully closed.
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2015.02.10-17.33.19:995][943]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2015.02.10-17.33.19:996][943]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2015.02.10-17.33.20:133][943]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2015.02.10-17.33.20:133][943]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2015.02.10-17.33.20:133][943]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2015.02.10-17.33.20:133][943]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2015.02.10-17.33.20:133][943]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2015.02.10-17.33.20:133][943]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2015.02.10-17.33.20:133][943]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2015.02.10-17.33.20:217][943]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2015.02.10-17.33.20:218][943]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2015.02.10-17.33.20:218][943]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2015.02.10-17.33.20:218][943]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2015.02.10-17.33.20:218][943]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2015.02.10-17.33.20:218][943]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2015.02.10-17.33.20:218][943]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2015.02.10-17.33.20:218][943]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2015.02.10-17.33.20:390][943]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2015.02.10-17.33.20:392][943]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2015.02.10-17.33.20:492][943]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2015.02.10-17.33.20:492][943]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2015.02.10-17.33.20:500][943]LogModuleManager: Shutting down and abandoning module Media (66)
+[2015.02.10-17.33.20:500][943]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2015.02.10-17.33.20:500][943]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2015.02.10-17.33.20:500][943]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2015.02.10-17.33.20:500][943]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2015.02.10-17.33.20:500][943]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2015.02.10-17.33.20:501][943]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2015.02.10-17.33.20:501][943]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2015.02.10-17.33.20:501][943]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2015.02.10-17.33.20:501][943]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2015.02.10-17.33.20:501][943]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2015.02.10-17.33.20:501][943]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2015.02.10-17.33.20:501][943]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2015.02.10-17.33.20:505][943]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module Core (47)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2015.02.10-17.33.20:506][943]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2015.02.10-17.33.20:537][943]LogDerivedDataCache: Shutdown
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.02.10-17.33.20:537][943]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.10-17.33.20:539][943]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.10-17.33.20:540][943]LogExit: Exiting.
+[2015.02.10-17.33.20:545][943]Log file closed, 02/10/15 17:33:20
