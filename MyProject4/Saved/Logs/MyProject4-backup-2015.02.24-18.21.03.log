@@ -1,0 +1,1119 @@
+﻿Log file open, 02/24/15 15:13:56
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.24-15.13.56:868][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.02.24-15.13.56:894][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.24-15.13.56:909][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.24-15.13.56:917][  0]LogInit: Object subsystem initialized
+[2015.02.24-15.13.56:920][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.24-15.13.56:920][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.24-15.13.56:920][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.02.24-15.13.56:920][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.24-15.13.56:921][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.24-15.13.56:921][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.24-15.13.56:925][  0]LogInit: Computer: RINGLETLTD18-PC
+[2015.02.24-15.13.56:925][  0]LogInit: User: Fulltime
+[2015.02.24-15.13.56:925][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.24-15.13.56:925][  0]LogInit: High frequency timer resolution =3.125029 MHz
+[2015.02.24-15.13.56:925][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.02.24-15.13.56:925][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.24-15.13.56:925][  0]LogMemory: Process Physical Memory: 63.38 MB used, 63.38 MB peak
+[2015.02.24-15.13.56:925][  0]LogMemory: Process Virtual Memory: 40.58 MB used, 40.58 MB peak
+[2015.02.24-15.13.56:925][  0]LogMemory: Physical Memory: 4515.07 MB used, 8127.42 MB total
+[2015.02.24-15.13.56:925][  0]LogMemory: Virtual Memory: 270.57 MB used, 8388608.00 MB total
+[2015.02.24-15.13.56:949][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.02.24-15.13.56:949][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.02.24-15.13.56:949][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.24-15.13.56:954][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.24-15.13.56:961][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.24-15.13.57:013][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.24-15.13.57:148][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.24-15.14.03:192][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.24-15.14.03:811][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.24-15.14.03:886][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.24-15.14.04:239][  0]LogDerivedDataCache: Loaded boot cache 0.35s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.24-15.14.04:239][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.02.24-15.14.04:239][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fulltime/Documents/Level26/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.24-15.14.04:239][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.24-15.14.04:323][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.24-15.14.04:334][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fulltime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.24-15.14.07:998][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.24-15.14.07:998][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.24-15.14.08:983][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.24-15.14.09:021][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.24-15.14.09:821][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.24-15.14.20:951][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.24-15.14.21:451][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Fulltime/Documents/Level26/MyProject4/Binaries/Win64. Error: 0
+[2015.02.24-15.14.22:010][  0]SourceControl: Info Source control is disabled
+[2015.02.24-15.14.22:010][  0]SourceControl: Info Source control is disabled
+[2015.02.24-15.14.22:015][  0]SourceControl: Info Source control is disabled
+[2015.02.24-15.14.22:467][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2015.02.24-15.14.22:467][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2015.02.24-15.14.22:834][  0]LogEngine: Initializing Engine...
+[2015.02.24-15.14.23:214][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.24-15.14.23:229][  0]LogInit: FAudioDevice initialized.
+[2015.02.24-15.14.23:349][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.24-15.14.23:400][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.24-15.14.23:404][  0]LogInit: Texture streaming: Enabled
+[2015.02.24-15.14.23:512][  0]LogInit: Transaction tracking system initialized
+[2015.02.24-15.14.23:761][  0]BlueprintLog: New page: Editor Load
+[2015.02.24-15.14.23:865][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2015.02.24-15.14.23:865][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.24-15.14.25:339][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.24-15.14.25:642][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.24-15.14.27:009][  0]LogConsoleResponse:Display: 
+[2015.02.24-15.14.29:402][  0]SourceControl: Info Source control is disabled
+[2015.02.24-15.14.29:429][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.24-15.14.29:461][  0]LightingResults: New page: Lighting Build
+[2015.02.24-15.14.29:491][  0]MapCheck: New page: Map Check
+[2015.02.24-15.14.29:491][  0]LightingResults: New page: Lighting Build
+[2015.02.24-15.14.29:505][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000111B4F40
+[2015.02.24-15.14.33:468][  0]LogBlueprintUserMessages: 1094.584473
+[2015.02.24-15.14.33:468][  0]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-15.14.33:469][  0]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-15.14.33:469][  0]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-15.14.33:469][  0]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-15.14.33:470][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.24-15.14.33:470][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-15.14.33:513][  0]Cmd: MAP CHECKDEP
+[2015.02.24-15.14.33:577][  0]MapCheck: New page: Example_Map - 24 Feb 2015 15:14:33
+[2015.02.24-15.14.33:729][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 151.966ms to complete.
+[2015.02.24-15.14.33:729][  0]LogFileHelpers: Loading map 'Example_Map' took 4.311
+[2015.02.24-15.14.34:719][  0]LogCollectionManager: Loaded 0 collections in 0.001083 seconds
+[2015.02.24-15.14.35:701][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.24-15.14.37:862][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.24-15.14.37:927][  0]LogLoad: Full Startup: 43.03 seconds (BP compile: 0.29 seconds)
+[2015.02.24-15.14.38:271][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.24-15.14.38:272][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.02.24-15.14.38:808][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x672.
+[2015.02.24-15.14.39:228][  0]LogRenderer:Warning: Reallocating scene render targets to support 1432x944.
+[2015.02.24-15.14.40:657][  3]LogAssetRegistry: Asset discovery search completed in 16.8015 seconds
+[2015.02.24-15.14.42:854][  9]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-15.14.42:854][  9]PIE: New page: PIE session: Example_Map (24 Feb 2015 15:14:42)
+[2015.02.24-15.14.42:944][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090032s)
+[2015.02.24-15.14.42:945][  9]LogPlayLevel: PIE: World Init took: (0.000636s)
+[2015.02.24-15.14.42:945][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.090916s)
+[2015.02.24-15.14.43:059][  9]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-15.14.43:076][  9]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-15.14.43:078][  9]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-15.14.43
+[2015.02.24-15.14.43:079][  9]LogWorld: Bringing up level for play took: 0.003104
+[2015.02.24-15.14.43:095][  9]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.217
+[2015.02.24-15.15.42:863][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.24-15.15.58:407][216]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2015.02.24-15.15.58:423][217]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2015.02.24-15.15.58:437][218]LogCharacterMovement: MyCharacter_C_0 is stuck and failed to move!
+[2015.02.24-15.16.21:657][941]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001232A340
+[2015.02.24-15.29.04:039][302]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-15.29.04:040][302]PIE: New page: PIE session: Example_Map (24 Feb 2015 15:29:04)
+[2015.02.24-15.29.04:131][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090745s)
+[2015.02.24-15.29.04:132][302]LogPlayLevel: PIE: World Init took: (0.001254s)
+[2015.02.24-15.29.04:132][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.092320s)
+[2015.02.24-15.29.04:166][302]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-15.29.04:168][302]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-15.29.04:169][302]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-15.29.04
+[2015.02.24-15.29.04:170][302]LogWorld: Bringing up level for play took: 0.001895
+[2015.02.24-15.29.04:172][302]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.716
+[2015.02.24-15.29.06:650][458]LogCharacterMovement: MyCharacter_C_1 is stuck and failed to move!
+[2015.02.24-15.29.06:664][459]LogCharacterMovement: MyCharacter_C_1 is stuck and failed to move!
+[2015.02.24-15.29.06:680][460]LogCharacterMovement: MyCharacter_C_1 is stuck and failed to move!
+[2015.02.24-15.29.06:694][461]LogCharacterMovement: MyCharacter_C_1 is stuck and failed to move!
+[2015.02.24-15.29.06:709][462]LogCharacterMovement: MyCharacter_C_1 is stuck and failed to move!
+[2015.02.24-15.29.06:723][463]LogCharacterMovement: MyCharacter_C_1 is stuck and failed to move!
+[2015.02.24-15.29.54:607][886]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DB82E80
+[2015.02.24-16.47.22:374][873]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-16.47.36:630][840]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2015.02.24-16.47.37:213][843]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.24-16.47.44:453][986]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-16.47.44:619][986]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.24-16.48.02:107][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.24-16.48.02:134][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.027
+[2015.02.24-16.48.02:200][845]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Crystal] ([1] browsable assets)...
+[2015.02.24-16.48.02:225][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Crystal]
+[2015.02.24-16.48.02:328][845]LogSavePackage: Save=35.595829ms
+[2015.02.24-16.48.02:328][845]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal_Auto18F9A99224262192544CC02A76A04785D.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/Crystal_Auto1.uasset'
+[2015.02.24-16.48.02:355][845]LogFileHelpers: Auto-saving content packages took 0.222
+[2015.02.24-16.48.55:698][581]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-16.48.56:201][582]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-16.53.35:657][741]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-16.58.15:383][359]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.02.24-16.58.40:486][587]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.40:821][588]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.41:321][589]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.41:822][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.43:861][591]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.43:861][591]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.44:361][593]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.44:861][594]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-16.58.57:871][654]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.02.24-16.59.00:779][929]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:\Users\Fulltime\Documents\Level26\MyProject4\Content\Models/Crystal.FBX)
+[2015.02.24-16.59.00:923][929]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.02.24-16.59.00:923][929]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.02.24-16.59.00:923][929]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.02.24-16.59.00:923][929]LogFbx: ItemName: Model, ItemCount : 1
+[2015.02.24-16.59.00:923][929]LogFbx: ItemName: Geometry, ItemCount : 1
+[2015.02.24-16.59.06:072][929]LogFbx: Loading FBX Scene from C:\Users\Fulltime\Documents\Level26\MyProject4\Content\Models/Crystal.FBX
+[2015.02.24-16.59.06:088][929]LogFbx: FBX Scene Loaded Succesfully
+[2015.02.24-16.59.06:102][929]LogFbx: == Initial material list:
+[2015.02.24-16.59.06:102][929]LogFbx: 0: None
+[2015.02.24-16.59.06:106][929]LogFbx: == After sorting:
+[2015.02.24-16.59.06:106][929]LogFbx: 0: None
+[2015.02.24-16.59.06:106][929]LogFbx: == Mapping table:
+[2015.02.24-16.59.06:106][929]LogFbx:   sort 0 -> 0
+[2015.02.24-16.59.06:182][929]LogStaticMesh: Building static mesh Crystal...
+[2015.02.24-16.59.06:206][929]LogLayoutUV:Display: FindCharts: 0 ms
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display:   Rasterize: 851
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display:   Find: 14
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display:   Rasterize: 850
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display:   Find: 12
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display:   Rasterize: 824
+[2015.02.24-16.59.06:207][929]LogLayoutUV:Display:   Find: 11
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display:   Rasterize: 926
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display:   Find: 12
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display:   Rasterize: 804
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display:   Find: 13
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display:   Rasterize: 803
+[2015.02.24-16.59.06:208][929]LogLayoutUV:Display:   Find: 14
+[2015.02.24-16.59.06:209][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:209][929]LogLayoutUV:Display:   Rasterize: 814
+[2015.02.24-16.59.06:209][929]LogLayoutUV:Display:   Find: 12
+[2015.02.24-16.59.06:209][929]LogLayoutUV:Display: PackCharts: 0 ms
+[2015.02.24-16.59.06:209][929]LogLayoutUV:Display:   Rasterize: 803
+[2015.02.24-16.59.06:209][929]LogLayoutUV:Display:   Find: 12
+[2015.02.24-16.59.06:221][929]LogStaticMesh: Built static mesh [67.698891ms] /Game/Models/Crystal.Crystal
+[2015.02.24-16.59.06:340][929]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2015.02.24-16.59.06:409][929]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.02.24-16.59.06:409][929]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Models'
+[2015.02.24-16.59.08:405][930]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-16.59.10:257][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.24-16.59.10:405][936]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.149
+[2015.02.24-16.59.10:428][936]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/Crystal] ([1] browsable assets)...
+[2015.02.24-16.59.11:138][936]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/Crystal.Crystal]
+[2015.02.24-16.59.11:138][936]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/Crystal]
+[2015.02.24-16.59.11:146][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Crystal" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Models/Crystal_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2015.02.24-16.59.11:707][936]LogSavePackage: Save=438.980255ms
+[2015.02.24-16.59.11:707][936]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal_Auto24F01954B4A7CE2278C0D7CB679EFE0B8.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Models/Crystal_Auto2.uasset'
+[2015.02.24-16.59.11:710][936]LogFileHelpers: Auto-saving content packages took 1.305
+[2015.02.24-16.59.45:660][513]LogActorFactory: Actor Factory created Crystal
+[2015.02.24-16.59.46:408][580]LogActorFactory: Actor Factory created Crystal
+[2015.02.24-16.59.47:470][583]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-16.59.48:034][583]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-17.09.12:238][259]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.24-17.09.13:297][259]LogSavePackage: Save=220.951233ms
+[2015.02.24-17.09.13:297][259]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map_Auto3353B4E654888DE24574059AF5A405AB2.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Maps/Example_Map_Auto3.umap'
+[2015.02.24-17.09.13:321][259]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 1.083
+[2015.02.24-17.09.13:321][259]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.083
+[2015.02.24-17.12.39:720][404]LogActorFactory: Actor Factory created Crystal
+[2015.02.24-17.12.54:615][379]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2015.02.24-17.15.26:442][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.24-17.15.32:338][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:338][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:382][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:382][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:382][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:382][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:382][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:382][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:382][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.32:383][800]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.15.40:977][351]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.24-17.15.45:464][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.24-17.15.48:009][851]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.02.24-17.15.51:407][ 73]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.02.24-17.16.00:355][682]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.00:355][682]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.00:355][682]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.00:356][682]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.38:320][246]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.38:320][246]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.38:320][246]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.38:320][246]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.16.38:320][246]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.17.10:699][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.02.24-17.17.58:087][545]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.18.30:596][493]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.19.14:188][110]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EEBE8E0
+[2015.02.24-17.19.14:408][110]LogSavePackage: Save=123.912132ms
+[2015.02.24-17.19.14:408][110]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map_Auto4A5750BFA43DD041CD8DB909F0BCDFE7C.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Maps/Example_Map_Auto4.umap'
+[2015.02.24-17.19.14:434][110]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.278
+[2015.02.24-17.19.14:434][110]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.278
+[2015.02.24-17.19.14:445][110]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2015.02.24-17.19.14:485][110]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2015.02.24-17.19.14:485][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2015.02.24-17.19.14:880][110]LogSavePackage: Save=344.288330ms
+[2015.02.24-17.19.14:880][110]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/MyCharacter_Auto4C81EF9E245E0FF09909103BABB3D49A8.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto4.uasset'
+[2015.02.24-17.19.14:916][110]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Crystal] ([1] browsable assets)...
+[2015.02.24-17.19.14:952][110]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Crystal.Crystal]
+[2015.02.24-17.19.14:952][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Crystal]
+[2015.02.24-17.19.15:375][110]LogSavePackage: Save=372.793335ms
+[2015.02.24-17.19.15:375][110]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal_Auto4674D7F4D4BEAB46718116A897C151901.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/Crystal_Auto4.uasset'
+[2015.02.24-17.19.15:379][110]LogFileHelpers: Auto-saving content packages took 0.945
+[2015.02.24-17.22.56:533][345]BlueprintLog: New page: Compile MyCharacter
+[2015.02.24-17.22.56:808][345]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.02.24-17.22.56:835][345]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000197EF060
+[2015.02.24-17.22.56:928][345]BlueprintEditorCompileResults: Info [7741.71] Compile of MyCharacter successful! [in 69 ms]
+[2015.02.24-17.25.07:948][408]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.25.07:948][408]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.25.07:949][408]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.25.39:587][811]BlueprintLog: New page: Compile Crystal
+[2015.02.24-17.25.39:684][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.02.24-17.25.39:725][811]BlueprintEditorCompileResults: Info [7904.63] Compile of Crystal successful! [in 1 ms]
+[2015.02.24-17.25.50:185][560]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.24-17.25.52:311][685]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.52:311][685]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.52:311][685]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.52:312][685]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.53:405][755]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.53:405][755]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.53:405][755]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.53:405][755]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.25.56:882][970]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.24-17.25.56:887][970]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.02.24-17.25.56:887][970]LogPlayLevel: [PIE] Compiling JumpingBox before PIE...
+[2015.02.24-17.25.56:988][970]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.02.24-17.25.57:080][970]LogPlayLevel: PIE:  Blueprint regeneration took 198 ms (2 blueprints)
+[2015.02.24-17.25.57:081][970]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:25:57)
+[2015.02.24-17.25.57:523][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.441945s)
+[2015.02.24-17.25.57:524][970]LogPlayLevel: PIE: World Init took: (0.001588s)
+[2015.02.24-17.25.57:525][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.443943s)
+[2015.02.24-17.25.57:562][970]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.25.57:567][970]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.25.57:568][970]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.25.57
+[2015.02.24-17.25.57:569][970]LogWorld: Bringing up level for play took: 0.002049
+[2015.02.24-17.25.57:571][970]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.613
+[2015.02.24-17.26.01:853][174]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003E35C220
+[2015.02.24-17.26.04:934][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crystal)
+[2015.02.24-17.26.40:065][442]BlueprintLog: New page: Compile Crystal
+[2015.02.24-17.26.40:192][442]BlueprintEditorCompileResults: Info [7965.11] Compile of Crystal successful! [in 1 ms]
+[2015.02.24-17.26.41:306][508]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.26.41:306][508]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:26:41)
+[2015.02.24-17.26.41:384][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078155s)
+[2015.02.24-17.26.41:386][508]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2015.02.24-17.26.41:386][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.079580s)
+[2015.02.24-17.26.41:419][508]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.26.41:421][508]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.26.41:422][508]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.26.41
+[2015.02.24-17.26.41:423][508]LogWorld: Bringing up level for play took: 0.001959
+[2015.02.24-17.26.41:424][508]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.466
+[2015.02.24-17.26.49:034][ 39]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021B32C00
+[2015.02.24-17.26.56:282][493]LogPropertyNode:Warning: UI Min (0.0) >= UI Max () for Ranged Numeric
+[2015.02.24-17.27.09:460][346]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.27.17:150][856]LogEditorTransaction: Undo Add Component
+[2015.02.24-17.27.17:339][856]LogBlueprintUserMessages: 1094.584473
+[2015.02.24-17.27.17:339][856]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.27.17:339][856]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.27.17:340][856]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.27.17:340][856]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.27.17:388][856]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.27.27:860][528]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.02.24-17.27.33:888][886]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.27.33:888][886]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.27.38:434][135]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.27.39:785][220]LogEditorTransaction: Undo Add Node
+[2015.02.24-17.27.39:957][220]LogBlueprintUserMessages: 1094.584473
+[2015.02.24-17.27.39:958][220]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.27.39:958][220]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.27.39:959][220]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.27.39:959][220]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.27.45:084][508]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.27.56:719][173]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.27.56:748][173]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.02.24-17.28.12:036][144]BlueprintLog: New page: Compile Crystal
+[2015.02.24-17.28.12:177][144]BlueprintEditorCompileResults: Info [8057.09] Compile of Crystal successful! [in 1 ms]
+[2015.02.24-17.28.13:596][224]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.24-17.28.13:659][224]LogBlueprintUserMessages: 1094.584473
+[2015.02.24-17.28.13:659][224]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.28.13:659][224]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.28.13:660][224]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.28.13:660][224]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.28.13:661][224]LogPlayLevel: [PIE] Compiling BoxChair before PIE...
+[2015.02.24-17.28.13:697][224]LogBlueprintUserMessages: 1094.584473
+[2015.02.24-17.28.13:697][224]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.28.13:697][224]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.28.13:698][224]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.28.13:698][224]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.28.13:822][224]LogBlueprintUserMessages: 1094.584473
+[2015.02.24-17.28.13:823][224]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.28.13:823][224]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.28.13:823][224]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.28.13:824][224]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.28.13:949][224]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2015.02.24-17.28.14:214][224]LogPlayLevel: [PIE] Compiling JumpingBox before PIE...
+[2015.02.24-17.28.14:292][224]LogPlayLevel: [PIE] Compiling Crystal before PIE...
+[2015.02.24-17.28.14:391][224]LogPlayLevel: PIE:  Blueprint regeneration took 793 ms (4 blueprints)
+[2015.02.24-17.28.14:391][224]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:28:14)
+[2015.02.24-17.28.14:520][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129037s)
+[2015.02.24-17.28.14:521][224]LogPlayLevel: PIE: World Init took: (0.001484s)
+[2015.02.24-17.28.14:522][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.130864s)
+[2015.02.24-17.28.14:552][224]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.28.14:554][224]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.28.14:556][224]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.28.14
+[2015.02.24-17.28.14:556][224]LogWorld: Bringing up level for play took: 0.001788
+[2015.02.24-17.28.14:558][224]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 1.598
+[2015.02.24-17.28.19:640][550]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.02.24-17.28.19:711][550]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D041440
+[2015.02.24-17.28.34:886][445]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.28.34:886][445]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:28:34)
+[2015.02.24-17.28.34:992][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.105629s)
+[2015.02.24-17.28.34:993][445]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2015.02.24-17.28.34:993][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.106944s)
+[2015.02.24-17.28.35:020][445]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.28.35:022][445]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.28.35:024][445]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.28.35
+[2015.02.24-17.28.35:024][445]LogWorld: Bringing up level for play took: 0.001767
+[2015.02.24-17.28.35:025][445]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.066
+[2015.02.24-17.28.43:977][981]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000223F59E0
+[2015.02.24-17.28.53:574][501]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.24-17.29.05:430][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:430][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.24-17.29.05:430][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:431][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:431][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.24-17.29.05:431][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:431][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:432][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:432][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:432][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.24-17.29.05:432][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:432][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:433][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:433][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:433][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Label'. Using FTextBlockStyle defaults instead.
+[2015.02.24-17.29.05:433][161]LogSlateStyle:Warning: Unable to find Slate Widget Style 'ViewportLayoutToolbar.Button'. Using FButtonStyle defaults instead.
+[2015.02.24-17.29.38:679][983]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.29.51:649][635]LogSavePackage: Save=107.395485ms
+[2015.02.24-17.29.51:649][635]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map_Auto5D6E344EB490475148E9AE6909066C4D0.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Maps/Example_Map_Auto5.umap'
+[2015.02.24-17.29.51:700][635]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.243
+[2015.02.24-17.29.51:700][635]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.243
+[2015.02.24-17.29.51:711][635]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BoxChair] ([1] browsable assets)...
+[2015.02.24-17.29.51:781][635]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BoxChair.BoxChair]
+[2015.02.24-17.29.51:781][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BoxChair]
+[2015.02.24-17.29.52:228][635]LogSavePackage: Save=387.933990ms
+[2015.02.24-17.29.52:228][635]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/BoxChair_Auto5A0A6BF5545C7FE244F0866834E85A860.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/BoxChair_Auto5.uasset'
+[2015.02.24-17.29.52:258][635]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2015.02.24-17.29.52:306][635]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2015.02.24-17.29.52:306][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2015.02.24-17.29.52:715][635]LogSavePackage: Save=353.950623ms
+[2015.02.24-17.29.52:715][635]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/MyCharacter_Auto56A45AFC24EEAEB800B6318A87E815AD0.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto5.uasset'
+[2015.02.24-17.29.52:744][635]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/JumpingBox] ([1] browsable assets)...
+[2015.02.24-17.29.52:806][635]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/JumpingBox.JumpingBox]
+[2015.02.24-17.29.52:806][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/JumpingBox]
+[2015.02.24-17.29.53:230][635]LogSavePackage: Save=368.145386ms
+[2015.02.24-17.29.53:230][635]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/JumpingBox_Auto5E6F19F1B4DD96659B087D29774DFA8D6.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/JumpingBox_Auto5.uasset'
+[2015.02.24-17.29.53:244][635]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Crystal] ([1] browsable assets)...
+[2015.02.24-17.29.53:305][635]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Crystal.Crystal]
+[2015.02.24-17.29.53:305][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Crystal]
+[2015.02.24-17.29.53:760][635]LogSavePackage: Save=399.913727ms
+[2015.02.24-17.29.53:760][635]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal_Auto5431BD449465D966BD24555829895C546.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/Crystal_Auto5.uasset'
+[2015.02.24-17.29.53:765][635]LogFileHelpers: Auto-saving content packages took 2.064
+[2015.02.24-17.29.54:382][668]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.29.54:382][668]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:29:54)
+[2015.02.24-17.29.54:469][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086974s)
+[2015.02.24-17.29.54:470][668]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2015.02.24-17.29.54:470][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.088292s)
+[2015.02.24-17.29.54:497][668]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.29.54:498][668]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.29.54:500][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.29.54
+[2015.02.24-17.29.54:500][668]LogWorld: Bringing up level for play took: 0.001620
+[2015.02.24-17.29.54:502][668]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.458
+[2015.02.24-17.30.01:662][ 93]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.02.24-17.30.01:689][ 93]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000308763E0
+[2015.02.24-17.30.07:458][364]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.30.07:458][364]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:30:07)
+[2015.02.24-17.30.07:552][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093680s)
+[2015.02.24-17.30.07:553][364]LogPlayLevel: PIE: World Init took: (0.001567s)
+[2015.02.24-17.30.07:553][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.095518s)
+[2015.02.24-17.30.07:583][364]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.30.07:584][364]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.30.07:586][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.30.07
+[2015.02.24-17.30.07:587][364]LogWorld: Bringing up level for play took: 0.001933
+[2015.02.24-17.30.07:588][364]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.628
+[2015.02.24-17.30.21:357][ 89]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FD78E00
+[2015.02.24-17.30.26:879][312]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.30.26:880][312]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:30:26)
+[2015.02.24-17.30.26:966][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086114s)
+[2015.02.24-17.30.26:967][312]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2015.02.24-17.30.26:967][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.087434s)
+[2015.02.24-17.30.26:995][312]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.30.26:996][312]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.30.26:998][312]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.30.26
+[2015.02.24-17.30.26:998][312]LogWorld: Bringing up level for play took: 0.001605
+[2015.02.24-17.30.27:000][312]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.039
+[2015.02.24-17.30.34:632][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046B131A0
+[2015.02.24-17.30.43:230][944]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.30.43:230][944]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:30:43)
+[2015.02.24-17.30.43:316][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085751s)
+[2015.02.24-17.30.43:316][944]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2015.02.24-17.30.43:317][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.086554s)
+[2015.02.24-17.30.43:347][944]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.30.43:348][944]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.30.43:350][944]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.30.43
+[2015.02.24-17.30.43:350][944]LogWorld: Bringing up level for play took: 0.001797
+[2015.02.24-17.30.43:352][944]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.391
+[2015.02.24-17.30.50:668][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C2AF740
+[2015.02.24-17.31.09:397][278]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.02.24-17.31.09:401][278]Aligned camera to fit all selected actors.
+[2015.02.24-17.31.22:930][133]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.31.22:930][133]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:31:22)
+[2015.02.24-17.31.23:015][133]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085279s)
+[2015.02.24-17.31.23:016][133]LogPlayLevel: PIE: World Init took: (0.001031s)
+[2015.02.24-17.31.23:017][133]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.086566s)
+[2015.02.24-17.31.23:048][133]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.31.23:050][133]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.31.23:052][133]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.31.23
+[2015.02.24-17.31.23:052][133]LogWorld: Bringing up level for play took: 0.002017
+[2015.02.24-17.31.23:054][133]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.093
+[2015.02.24-17.31.33:200][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F3CFA60
+[2015.02.24-17.31.35:629][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Crystal)
+[2015.02.24-17.31.48:185][773]Cmd: DELETE
+[2015.02.24-17.31.48:185][773]Cmd: ACTOR DELETE
+[2015.02.24-17.31.48:341][773]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.02.24-17.31.48:369][773]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2015.02.24-17.31.51:569][982]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.51:569][982]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.51:570][982]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.51:570][982]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.51:833][997]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.51:833][997]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.51:833][997]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.51:833][997]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.31.58:121][381]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.31.58:121][381]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:31:58)
+[2015.02.24-17.31.58:206][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085117s)
+[2015.02.24-17.31.58:207][381]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2015.02.24-17.31.58:207][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.086313s)
+[2015.02.24-17.31.58:235][381]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.31.58:236][381]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.31.58:238][381]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.31.58
+[2015.02.24-17.31.58:238][381]LogWorld: Bringing up level for play took: 0.001657
+[2015.02.24-17.31.58:240][381]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.721
+[2015.02.24-17.32.01:705][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.02.24-17.32.01:731][585]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F290720
+[2015.02.24-17.33.31:776][280]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-17.34.25:433][441]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.24-17.40.43:109][590]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.02.24-17.40.43:979][590]LogSavePackage: Save=128.911118ms
+[2015.02.24-17.40.43:979][590]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map_Auto69D3402F44018F6A0B1C86CAC210CFBAF.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Maps/Example_Map_Auto6.umap'
+[2015.02.24-17.40.44:040][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.931
+[2015.02.24-17.40.44:040][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.931
+[2015.02.24-17.40.44:052][590]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Crystal] ([1] browsable assets)...
+[2015.02.24-17.40.44:184][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Crystal.Crystal]
+[2015.02.24-17.40.44:184][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Crystal]
+[2015.02.24-17.40.44:623][590]LogSavePackage: Save=402.467621ms
+[2015.02.24-17.40.44:623][590]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal_Auto6B563895B44BB8F0B213523AD7F1C04D9.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/Crystal_Auto6.uasset'
+[2015.02.24-17.40.44:628][590]LogFileHelpers: Auto-saving content packages took 0.589
+[2015.02.24-17.40.55:563][245]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.41.09:862][141]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.42.40:951][778]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.43.08:753][347]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.43.27:894][147]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.43.36:254][638]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.44.05:145][615]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.44.37:938][842]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.45.04:471][356]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.45.08:389][545]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.45.12:084][761]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2015.02.24-17.45.18:893][144]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.45.31:947][892]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.45.40:775][410]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.46.41:155][299]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.47.35:414][189]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.47.44:188][668]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.48.02:244][ 74]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.48.10:490][241]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.02.24-17.48.19:611][722]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.48.41:413][832]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.48.51:399][360]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.49.14:784][627]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.49.42:355][118]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.50.00:074][125]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.50.46:014][835]LogSavePackage: Save=118.759537ms
+[2015.02.24-17.50.46:014][835]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map_Auto760F3A27A4F8C4DCF81AB55AF6191080A.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Maps/Example_Map_Auto7.umap'
+[2015.02.24-17.50.46:051][835]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.307
+[2015.02.24-17.50.46:051][835]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
+[2015.02.24-17.50.46:063][835]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Crystal] ([1] browsable assets)...
+[2015.02.24-17.50.46:125][835]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Crystal.Crystal]
+[2015.02.24-17.50.46:125][835]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Crystal]
+[2015.02.24-17.50.46:559][835]LogSavePackage: Save=378.437439ms
+[2015.02.24-17.50.46:559][835]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal_Auto7567082CE4B561D695EA21394B03D37FE.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/Crystal_Auto7.uasset'
+[2015.02.24-17.50.46:564][835]LogFileHelpers: Auto-saving content packages took 0.512
+[2015.02.24-17.51.08:012][573]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.53.47:112][851]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.54.13:663][283]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.24-17.54.19:484][587]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.54.29:445][146]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.54.29:458][146]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2015.02.24-17.54.44:680][985]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.54.54:076][507]BlueprintLog: New page: Compile Crystal
+[2015.02.24-17.54.54:229][507]BlueprintEditorCompileResults: Info [9659.11] Compile of Crystal successful! [in 3 ms]
+[2015.02.24-17.54.57:996][642]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.54.57:996][642]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:54:57)
+[2015.02.24-17.54.58:145][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149130s)
+[2015.02.24-17.54.58:146][642]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2015.02.24-17.54.58:147][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.150293s)
+[2015.02.24-17.54.58:172][642]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.54.58:173][642]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.54.58:175][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.54.58
+[2015.02.24-17.54.58:175][642]LogWorld: Bringing up level for play took: 0.002241
+[2015.02.24-17.54.58:177][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.798
+[2015.02.24-17.54.58:178][642]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_2
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.54.58:178][642]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.54.58:206][642]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_3
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.54.58:206][642]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.54.58:206][642]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.54.58:206][642]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.06:242][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C6DF920
+[2015.02.24-17.55.16:247][585]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal_2)
+[2015.02.24-17.55.24:136][ 51]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.55.24:136][ 51]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:55:24)
+[2015.02.24-17.55.24:221][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085498s)
+[2015.02.24-17.55.24:223][ 51]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2015.02.24-17.55.24:223][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.086940s)
+[2015.02.24-17.55.24:251][ 51]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.55.24:253][ 51]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.55.24:254][ 51]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.55.24
+[2015.02.24-17.55.24:254][ 51]LogWorld: Bringing up level for play took: 0.001724
+[2015.02.24-17.55.24:256][ 51]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.72
+[2015.02.24-17.55.24:256][ 51]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_2
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.24:257][ 51]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.24:257][ 51]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_3
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.24:257][ 51]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.24:257][ 51]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.24:257][ 51]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.24:257][ 51]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_54
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.24:257][ 51]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.29:771][368]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000521D8180
+[2015.02.24-17.55.37:068][760]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal_2)
+[2015.02.24-17.55.39:724][908]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.55.39:724][908]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:55:39)
+[2015.02.24-17.55.39:821][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.097052s)
+[2015.02.24-17.55.39:822][908]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2015.02.24-17.55.39:822][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.098111s)
+[2015.02.24-17.55.39:854][908]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.55.39:855][908]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.55.39:857][908]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.55.39
+[2015.02.24-17.55.39:857][908]LogWorld: Bringing up level for play took: 0.001816
+[2015.02.24-17.55.39:859][908]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.883
+[2015.02.24-17.55.39:860][908]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_2
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.39:860][908]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.39:860][908]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_3
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.39:860][908]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.39:860][908]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.39:860][908]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.39:860][908]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_54
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.55.39:860][908]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.55.48:464][400]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000021B139C0
+[2015.02.24-17.55.52:738][619]MapCheck: New page: Map Check
+[2015.02.24-17.55.52:814][619]Cmd: MAP REBUILD ALLVISIBLE
+[2015.02.24-17.55.52:822][619]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.02.24-17.55.53:092][619]LogBlueprintUserMessages: 1094.584473
+[2015.02.24-17.55.53:092][619]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.55.53:092][619]LogBlueprintUserMessages: 2900.070313
+[2015.02.24-17.55.53:093][619]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.55.53:093][619]LogBlueprintUserMessages: 7051.640625
+[2015.02.24-17.55.53:126][619]LightingResults: New page: Lighting Build - 24 Feb 2015 17:55:53
+[2015.02.24-17.56.14:599][619]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.02.24-17.56.14:599][619]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.02.24-17.56.14:599][619]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.02.24-17.56.14:599][619]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.02.24-17.56.14:599][619]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.02.24-17.56.15:198][619]LogEditorBuildUtils: Build time 0:00:22
+[2015.02.24-17.56.16:204][622]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_Chrome_-_Polished, compiling.
+[2015.02.24-17.56.16:370][622]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Metal_Chrome_-_Polished, compiling.
+[2015.02.24-17.56.27:541][718]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.56.27:541][718]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:56:27)
+[2015.02.24-17.56.27:644][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102502s)
+[2015.02.24-17.56.27:645][718]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2015.02.24-17.56.27:645][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.103468s)
+[2015.02.24-17.56.27:681][718]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.56.27:682][718]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.56.27:684][718]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.56.27
+[2015.02.24-17.56.27:684][718]LogWorld: Bringing up level for play took: 0.001869
+[2015.02.24-17.56.27:686][718]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.71
+[2015.02.24-17.56.27:687][718]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_2
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.56.27:687][718]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.56.27:687][718]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_3
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.56.27:687][718]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.56.27:687][718]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.56.27:687][718]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.56.27:687][718]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_54
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.56.27:687][718]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.56.30:246][721]Job is a success!
+[2015.02.24-17.56.30:929][721]LightingResults:Error: Error Scale_Character_test Object has overlapping UVs.
+[2015.02.24-17.56.30:929][721]LightingResults: Info Scale_Character_test Lightmap UV are overlapping by 18.5%. Please adjust content - Enable Error Coloring to visualize.
+[2015.02.24-17.56.40:776][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004189A660
+[2015.02.24-17.56.49:131][679]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.02.24-17.56.55:010][ 16]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal_3)
+[2015.02.24-17.56.58:046][202]LogMaterial:Warning: Material /Game/Character/Metal_Chrome_-_Polished.Metal_Chrome_-_Polished needed to have new flag set bUsedWithStaticLighting !
+[2015.02.24-17.56.58:073][202]LogMaterial: Missing cached shader map for material Metal_Chrome_-_Polished, compiling.
+[2015.02.24-17.56.58:115][202]LogMaterial: 0.011286 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.02.24-17.56.58:224][202]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.02.24-17.56.58:416][202]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.02.24-17.56.58:421][202]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.02.24-17.56.58:427][202]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.02.24-17.56.58:462][202]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.02.24-17.56.58:520][202]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.02.24-17.56.58:786][202]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.02.24-17.56.58:877][202]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.02.24-17.56.58:882][202]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.02.24-17.56.59:381][202]Lightmass on RINGLETLTD18-PC: 34.2 sec total, 880 ms importing, 40 ms setup, 488 ms photons, 32.6 sec processing, 0 ms extra exporting [20/20 mappings]. Threads: 2:10 min total, 7.00 sec processing.
+[2015.02.24-17.56.59:666][202]LogStaticLightingSystem:Warning: Illumination: 39.6 sec (759 ms encoding lightmaps)
+[2015.02.24-17.56.59:666][202]LogStaticLightingSystem: Lightmap texture memory:  1.4 MB (0.1 MB streaming, 1.3 MB non-streaming), 6 textures
+[2015.02.24-17.56.59:666][202]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2015.02.24-17.57.06:644][203]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.02.24-17.57.06:644][203]MapCheck: New page: Example_Map - 24 Feb 2015 17:57:06
+[2015.02.24-17.57.06:694][203]MapCheck:Warning: Warning JumpingBox_C_2 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.02.24-17.57.06:694][203]MapCheck:Warning: Warning JumpingBox_C_5 'Shape_Cube' has simple collision but is being scaled non-uniformly - collision creation will fail 
+[2015.02.24-17.57.06:843][203]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 198.656ms to complete.
+[2015.02.24-17.57.11:559][474]Cmd: DELETE
+[2015.02.24-17.57.11:559][474]Cmd: ACTOR DELETE
+[2015.02.24-17.57.11:590][474]LogEditorActor: Deleted Actor: Crystal_C
+[2015.02.24-17.57.11:615][474]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2015.02.24-17.57.12:881][575]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal)
+[2015.02.24-17.57.13:173][595]Cmd: DELETE
+[2015.02.24-17.57.13:173][595]Cmd: ACTOR DELETE
+[2015.02.24-17.57.13:205][595]LogEditorActor: Deleted Actor: Crystal_C
+[2015.02.24-17.57.13:228][595]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2015.02.24-17.57.14:049][665]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal_4)
+[2015.02.24-17.57.14:435][692]Cmd: DELETE
+[2015.02.24-17.57.14:435][692]Cmd: ACTOR DELETE
+[2015.02.24-17.57.14:470][692]LogEditorActor: Deleted Actor: Crystal_C
+[2015.02.24-17.57.14:494][692]LogEditorActor: Deleted 1 Actors (0.059 secs)
+[2015.02.24-17.57.15:165][749]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal_2)
+[2015.02.24-17.57.15:398][763]Cmd: DELETE
+[2015.02.24-17.57.15:398][763]Cmd: ACTOR DELETE
+[2015.02.24-17.57.15:432][763]LogEditorActor: Deleted Actor: Crystal_C
+[2015.02.24-17.57.15:459][763]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2015.02.24-17.57.20:921][162]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.20:921][162]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.20:921][162]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.20:922][162]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.22:604][285]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.22:604][285]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.22:604][285]LogLinker:Warning: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.22:604][285]LogLinker: Can't find file '/Game/Blueprints/Crystal'
+[2015.02.24-17.57.24:445][339]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.57.24:445][339]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:57:24)
+[2015.02.24-17.57.24:935][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.489332s)
+[2015.02.24-17.57.24:938][339]LogPlayLevel: PIE: World Init took: (0.002906s)
+[2015.02.24-17.57.24:938][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.492606s)
+[2015.02.24-17.57.24:969][339]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.57.24:971][339]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.57.24:972][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.57.24
+[2015.02.24-17.57.24:973][339]LogWorld: Bringing up level for play took: 0.002081
+[2015.02.24-17.57.24:975][339]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.002
+[2015.02.24-17.57.25:478][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-17.57.25:978][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-17.57.26:479][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-17.57.26:979][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2015.02.24-17.57.27:285][339]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_119
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.57.27:285][339]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.57.37:148][946]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2015.02.24-17.57.37:174][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000135D5DA0
+[2015.02.24-17.57.52:440][829]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.58.57:072][980]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.59.13:240][906]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.59.15:682][ 50]BlueprintLog: New page: Compile Crystal
+[2015.02.24-17.59.15:855][ 50]BlueprintEditorCompileResults: Info [9920.73] Compile of Crystal successful! [in 5 ms]
+[2015.02.24-17.59.22:745][457]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.59.27:064][711]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-17.59.28:602][804]BlueprintLog: New page: Compile Crystal
+[2015.02.24-17.59.28:750][804]BlueprintEditorCompileResults: Info [9933.64] Compile of Crystal successful! [in 3 ms]
+[2015.02.24-17.59.32:198][  1]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-17.59.32:198][  1]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:59:32)
+[2015.02.24-17.59.32:319][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120351s)
+[2015.02.24-17.59.32:320][  1]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2015.02.24-17.59.32:320][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.121622s)
+[2015.02.24-17.59.32:350][  1]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.59.32:352][  1]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.59.32:353][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.59.32
+[2015.02.24-17.59.32:353][  1]LogWorld: Bringing up level for play took: 0.001628
+[2015.02.24-17.59.32:355][  1]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.623
+[2015.02.24-17.59.32:365][  1]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.59.32:365][  1]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Set GoToSpeed in blueprint Crystal
+[2015.02.24-17.59.36:055][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000584DD9E0
+[2015.02.24-17.59.52:184][112]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal)
+[2015.02.24-17.59.54:814][280]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.02.24-17.59.54:817][280]LogPlayLevel: [PIE] Compiling Crystal before PIE...
+[2015.02.24-17.59.54:930][280]LogPlayLevel: PIE:  Blueprint regeneration took 116 ms (1 blueprints)
+[2015.02.24-17.59.54:931][280]PIE: New page: PIE session: Example_Map (24 Feb 2015 17:59:54)
+[2015.02.24-17.59.55:027][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096530s)
+[2015.02.24-17.59.55:028][280]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2015.02.24-17.59.55:028][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.097330s)
+[2015.02.24-17.59.55:059][280]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-17.59.55:060][280]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-17.59.55:062][280]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-17.59.55
+[2015.02.24-17.59.55:062][280]LogWorld: Bringing up level for play took: 0.002035
+[2015.02.24-17.59.55:064][280]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.086
+[2015.02.24-17.59.55:065][280]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_5
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-17.59.55:065][280]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Construction Script in blueprint Crystal
+[2015.02.24-17.59.58:676][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004C5C0680
+[2015.02.24-18.00.21:009][799]BlueprintLog: New page: Compile Crystal
+[2015.02.24-18.00.21:128][799]BlueprintEditorCompileResults: Info [9986.04] Compile of Crystal successful! [in 3 ms]
+[2015.02.24-18.00.37:635][694]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-18.00.37:635][694]PIE: New page: PIE session: Example_Map (24 Feb 2015 18:00:37)
+[2015.02.24-18.00.37:748][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113251s)
+[2015.02.24-18.00.37:749][694]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2015.02.24-18.00.37:749][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.114118s)
+[2015.02.24-18.00.37:785][694]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-18.00.37:787][694]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-18.00.37:789][694]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-18.00.37
+[2015.02.24-18.00.37:789][694]LogWorld: Bringing up level for play took: 0.002014
+[2015.02.24-18.00.37:791][694]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.812
+[2015.02.24-18.00.37:792][694]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-18.00.37:792][694]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Construction Script in blueprint Crystal
+[2015.02.24-18.00.47:332][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000072D57D80
+[2015.02.24-18.00.50:409][411]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-18.00.50:410][411]PIE: New page: PIE session: Example_Map (24 Feb 2015 18:00:50)
+[2015.02.24-18.00.50:522][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.112744s)
+[2015.02.24-18.00.50:524][411]LogPlayLevel: PIE: World Init took: (0.001332s)
+[2015.02.24-18.00.50:524][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.114409s)
+[2015.02.24-18.00.50:553][411]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-18.00.50:555][411]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-18.00.50:556][411]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-18.00.50
+[2015.02.24-18.00.50:557][411]LogWorld: Bringing up level for play took: 0.001724
+[2015.02.24-18.00.50:558][411]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.42
+[2015.02.24-18.00.50:559][411]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-18.00.50:559][411]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Construction Script in blueprint Crystal
+[2015.02.24-18.01.35:276][841]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007AAF0680
+[2015.02.24-18.01.39:194][ 17]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-18.02.10:086][629]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-18.02.11:182][696]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-18.02.11:297][704]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-18.02.11:297][704]PIE: New page: PIE session: Example_Map (24 Feb 2015 18:02:11)
+[2015.02.24-18.02.11:419][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121686s)
+[2015.02.24-18.02.11:420][704]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2015.02.24-18.02.11:420][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.123199s)
+[2015.02.24-18.02.11:450][704]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-18.02.11:451][704]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-18.02.11:453][704]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-18.02.11
+[2015.02.24-18.02.11:453][704]LogWorld: Bringing up level for play took: 0.001666
+[2015.02.24-18.02.11:455][704]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map 0.475
+[2015.02.24-18.02.11:456][704]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsMyCharacter_C'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_4
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:019F
+[2015.02.24-18.02.11:456][704]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsMyCharacter_C' from node Construction Script in blueprint Crystal
+[2015.02.24-18.02.15:720][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A338B80
+[2015.02.24-18.02.15:721][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D9D7B00
+[2015.02.24-18.02.15:721][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E76C5E0
+[2015.02.24-18.02.15:742][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019A54CC0
+[2015.02.24-18.02.15:742][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000181F7A60
+[2015.02.24-18.02.45:292][876]LogSavePackage: Save=266.666962ms
+[2015.02.24-18.02.45:292][876]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map_Auto87E729DB0421196C25A845592BD21E548.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Maps/Example_Map_Auto8.umap'
+[2015.02.24-18.02.45:317][876]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 1.011
+[2015.02.24-18.02.45:317][876]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.011
+[2015.02.24-18.02.45:346][876]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Character/Metal_Chrome_-_Polished] ([1] browsable assets)...
+[2015.02.24-18.02.45:399][876]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Character/Metal_Chrome_-_Polished.Metal_Chrome_-_Polished]
+[2015.02.24-18.02.45:399][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Character/Metal_Chrome_-_Polished]
+[2015.02.24-18.02.45:895][876]LogSavePackage: Save=456.660736ms
+[2015.02.24-18.02.45:895][876]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Metal_Chrome_-_Polished_Auto8D75B1C774829C35061B9509DFE9AE46E.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Character/Metal_Chrome_-_Polished_Auto8.uasset'
+[2015.02.24-18.02.45:925][876]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Crystal] ([1] browsable assets)...
+[2015.02.24-18.02.45:982][876]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Crystal.Crystal]
+[2015.02.24-18.02.45:982][876]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Crystal]
+[2015.02.24-18.02.46:409][876]LogSavePackage: Save=372.022797ms
+[2015.02.24-18.02.46:409][876]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal_Auto865AE360948075B43D5E02C91129D808A.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/Crystal_Auto8.uasset'
+[2015.02.24-18.02.46:413][876]LogFileHelpers: Auto-saving content packages took 1.096
+[2015.02.24-18.03.01:642][686]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-18.03.07:671][963]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-18.03.09:226][ 37]LogWindowsTextInputMethodSystem:Error: Deactivating a context failed while setting focus to the disabled TSF document manager.
+[2015.02.24-18.04.04:643][775]BlueprintLog: New page: Compile Crystal
+[2015.02.24-18.04.04:788][775]BlueprintEditorCompileResults: Info [0209.68] Compile of Crystal successful! [in 3 ms]
+[2015.02.24-18.04.06:436][850]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-18.04.06:437][850]PIE: New page: PIE session: Example_Map (24 Feb 2015 18:04:06)
+[2015.02.24-18.04.06:531][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094698s)
+[2015.02.24-18.04.06:533][850]LogPlayLevel: PIE: World Init took: (0.001507s)
+[2015.02.24-18.04.06:533][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.096541s)
+[2015.02.24-18.04.06:563][850]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-18.04.06:565][850]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-18.04.06:566][850]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-18.04.06
+[2015.02.24-18.04.06:566][850]LogWorld: Bringing up level for play took: 0.001603
+[2015.02.24-18.04.06:568][850]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.413
+[2015.02.24-18.04.06:569][850]LogScript:Warning: Accessed None 'CharacterVariable'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_0
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:01DE
+[2015.02.24-18.04.06:569][850]PIE:Error: Error Accessed None 'CharacterVariable' from node Construction Script in blueprint Crystal
+[2015.02.24-18.04.06:569][850]LogScript:Warning: Accessed None 'CharacterVariable'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_0
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:0332
+[2015.02.24-18.04.06:569][850]PIE:Error: Error Accessed None 'CharacterVariable' from node Construction Script in blueprint Crystal
+[2015.02.24-18.04.10:920][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000544DD440
+[2015.02.24-18.04.18:168][475]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.24-18.04.18:168][475]PIE: New page: PIE session: Example_Map (24 Feb 2015 18:04:18)
+[2015.02.24-18.04.18:265][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.096422s)
+[2015.02.24-18.04.18:266][475]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2015.02.24-18.04.18:266][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.097822s)
+[2015.02.24-18.04.18:297][475]LogWorld: Game class is 'MyGame_C'
+[2015.02.24-18.04.18:299][475]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.24-18.04.18:300][475]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.24-18.04.18
+[2015.02.24-18.04.18:301][475]LogWorld: Bringing up level for play took: 0.001724
+[2015.02.24-18.04.18:302][475]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.678
+[2015.02.24-18.04.18:303][475]LogScript:Warning: Accessed None 'CharacterVariable'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_0
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:01DE
+[2015.02.24-18.04.18:303][475]PIE:Error: Error Accessed None 'CharacterVariable' from node Construction Script in blueprint Crystal
+[2015.02.24-18.04.18:303][475]LogScript:Warning: Accessed None 'CharacterVariable'
+	Crystal_C /Game/Maps/UEDPIE_0_Example_Map.Example_Map:PersistentLevel.Crystal_C_0
+	Function /Game/Blueprints/Crystal.Crystal_C:ExecuteUbergraph_Crystal:0332
+[2015.02.24-18.04.18:303][475]PIE:Error: Error Accessed None 'CharacterVariable' from node Construction Script in blueprint Crystal
+[2015.02.24-18.04.21:005][654]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DA39E40
+[2015.02.24-18.04.37:649][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Example_Map" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Maps/Example_Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.02.24-18.04.37:931][655]LogSavePackage: Save=253.620682ms
+[2015.02.24-18.04.37:931][655]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map10FA4922432A0B2458F687A2E5F707B8.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Maps/Example_Map.umap'
+[2015.02.24-18.04.37:995][655]LogFileHelpers: Saving map 'Example_Map' took 0.452
+[2015.02.24-18.04.38:006][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BoxChair" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/BoxChair.uasset" SILENT=true
+[2015.02.24-18.04.38:059][655]LogSavePackage: Save=29.547886ms
+[2015.02.24-18.04.38:059][655]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/BoxChairE9B416A04109A1113384D7BF0239587A.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/BoxChair.uasset'
+[2015.02.24-18.04.38:066][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.02.24-18.04.38:163][655]LogSavePackage: Save=56.013882ms
+[2015.02.24-18.04.38:163][655]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/MyCharacter6F270D994E0376EE5BAB5A816D4F48CC.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/MyCharacter.uasset'
+[2015.02.24-18.04.38:175][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/JumpingBox" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/JumpingBox.uasset" SILENT=true
+[2015.02.24-18.04.38:195][655]LogSavePackage: Save=13.696193ms
+[2015.02.24-18.04.38:195][655]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/JumpingBoxD4DA72804CFF26A69CC990BA7A24CA0F.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/JumpingBox.uasset'
+[2015.02.24-18.04.38:204][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Metal_Chrome_-_Polished" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Character/Metal_Chrome_-_Polished.uasset" SILENT=true
+[2015.02.24-18.04.38:215][655]LogSavePackage: Save=4.885715ms
+[2015.02.24-18.04.38:215][655]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Metal_Chrome_-_Polished41E322F24C175F91D8DC31BE9AA63A21.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Character/Metal_Chrome_-_Polished.uasset'
+[2015.02.24-18.04.38:232][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Crystal" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/Crystal.uasset" SILENT=true
+[2015.02.24-18.04.38:602][655]LogSavePackage: Save=369.464417ms
+[2015.02.24-18.04.38:602][655]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/CrystalA63720294716EF54F1C03882515F5EAA.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Blueprints/Crystal.uasset'
+[2015.02.24-18.04.38:619][655]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/Crystal" FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Models/Crystal.uasset" SILENT=true
+[2015.02.24-18.04.38:973][655]LogSavePackage: Save=353.417206ms
+[2015.02.24-18.04.38:973][655]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Crystal0D6C25D246C7330B02D29E89E722A9C9.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Models/Crystal.uasset'
+[2015.02.24-18.04.42:261][748]Cmd: QUIT_EDITOR
+[2015.02.24-18.04.42:831][748]LogExit: Preparing to exit.
+[2015.02.24-18.04.43:947][748]LogExit: Editor shut down
+[2015.02.24-18.04.43:947][748]LogExit: Transaction tracking system shut down
+[2015.02.24-18.04.43:948][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CAA32E0
+[2015.02.24-18.04.43:951][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007A830CC0
+[2015.02.24-18.04.43:951][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000219FAFC0
+[2015.02.24-18.04.43:952][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000219FA020
+[2015.02.24-18.04.43:952][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023C36200
+[2015.02.24-18.04.44:566][748]LogExit: Object subsystem successfully closed.
+[2015.02.24-18.04.44:970][748]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2015.02.24-18.04.44:970][748]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (166)
+[2015.02.24-18.04.44:970][748]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2015.02.24-18.04.44:970][748]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2015.02.24-18.04.44:970][748]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2015.02.24-18.04.44:970][748]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2015.02.24-18.04.44:970][748]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2015.02.24-18.04.44:976][748]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2015.02.24-18.04.44:989][748]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2015.02.24-18.04.44:999][748]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2015.02.24-18.04.45:005][748]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2015.02.24-18.04.45:012][748]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2015.02.24-18.04.45:022][748]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2015.02.24-18.04.45:058][748]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2015.02.24-18.04.45:058][748]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2015.02.24-18.04.45:058][748]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2015.02.24-18.04.45:066][748]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2015.02.24-18.04.45:080][748]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2015.02.24-18.04.45:080][748]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2015.02.24-18.04.45:101][748]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2015.02.24-18.04.45:101][748]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2015.02.24-18.04.45:114][748]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2015.02.24-18.04.45:123][748]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2015.02.24-18.04.45:123][748]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2015.02.24-18.04.45:123][748]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2015.02.24-18.04.45:123][748]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2015.02.24-18.04.45:123][748]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2015.02.24-18.04.45:124][748]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2015.02.24-18.04.45:124][748]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2015.02.24-18.04.45:140][748]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2015.02.24-18.04.45:140][748]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2015.02.24-18.04.45:140][748]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2015.02.24-18.04.45:146][748]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2015.02.24-18.04.45:155][748]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2015.02.24-18.04.45:166][748]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2015.02.24-18.04.45:166][748]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2015.02.24-18.04.45:171][748]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2015.02.24-18.04.45:183][748]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2015.02.24-18.04.45:195][748]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2015.02.24-18.04.45:207][748]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2015.02.24-18.04.45:207][748]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2015.02.24-18.04.45:218][748]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2015.02.24-18.04.45:218][748]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2015.02.24-18.04.45:296][748]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2015.02.24-18.04.45:314][748]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2015.02.24-18.04.45:331][748]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2015.02.24-18.04.45:332][748]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2015.02.24-18.04.45:332][748]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2015.02.24-18.04.45:332][748]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2015.02.24-18.04.45:340][748]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2015.02.24-18.04.45:390][748]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2015.02.24-18.04.45:390][748]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2015.02.24-18.04.45:399][748]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2015.02.24-18.04.45:399][748]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2015.02.24-18.04.45:410][748]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2015.02.24-18.04.45:410][748]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2015.02.24-18.04.45:410][748]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2015.02.24-18.04.45:410][748]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2015.02.24-18.04.45:410][748]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2015.02.24-18.04.45:418][748]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2015.02.24-18.04.45:423][748]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2015.02.24-18.04.45:584][748]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2015.02.24-18.04.45:592][748]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2015.02.24-18.04.45:592][748]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2015.02.24-18.04.45:592][748]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2015.02.24-18.04.45:592][748]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2015.02.24-18.04.45:592][748]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2015.02.24-18.04.45:612][748]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2015.02.24-18.04.45:628][748]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2015.02.24-18.04.45:628][748]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2015.02.24-18.04.45:643][748]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.02.24-18.04.45:643][748]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.02.24-18.04.45:660][748]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.02.24-18.04.45:668][748]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.02.24-18.04.45:668][748]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.02.24-18.04.45:680][748]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.02.24-18.04.45:680][748]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.02.24-18.04.45:704][748]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.02.24-18.04.45:704][748]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2015.02.24-18.04.45:719][748]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2015.02.24-18.04.45:719][748]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2015.02.24-18.04.45:734][748]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2015.02.24-18.04.45:734][748]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2015.02.24-18.04.45:735][748]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2015.02.24-18.04.45:735][748]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2015.02.24-18.04.45:735][748]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2015.02.24-18.04.45:735][748]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2015.02.24-18.04.45:738][748]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2015.02.24-18.04.45:738][748]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2015.02.24-18.04.45:738][748]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2015.02.24-18.04.45:754][748]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2015.02.24-18.04.45:759][748]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2015.02.24-18.04.45:859][748]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2015.02.24-18.04.45:872][748]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2015.02.24-18.04.45:890][748]LogModuleManager: Shutting down and abandoning module Media (66)
+[2015.02.24-18.04.45:890][748]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2015.02.24-18.04.45:924][748]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2015.02.24-18.04.45:924][748]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2015.02.24-18.04.45:924][748]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2015.02.24-18.04.45:946][748]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2015.02.24-18.04.45:946][748]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2015.02.24-18.04.45:946][748]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2015.02.24-18.04.45:966][748]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2015.02.24-18.04.45:989][748]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2015.02.24-18.04.45:999][748]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2015.02.24-18.04.46:003][748]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2015.02.24-18.04.46:003][748]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module Core (47)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2015.02.24-18.04.46:015][748]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2015.02.24-18.04.46:020][748]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2015.02.24-18.04.46:056][748]LogDerivedDataCache: Shutdown
+[2015.02.24-18.04.46:056][748]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2015.02.24-18.04.46:068][748]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2015.02.24-18.04.46:079][748]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2015.02.24-18.04.46:087][748]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2015.02.24-18.04.46:087][748]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2015.02.24-18.04.46:098][748]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2015.02.24-18.04.46:098][748]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2015.02.24-18.04.46:098][748]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2015.02.24-18.04.46:104][748]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2015.02.24-18.04.46:115][748]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2015.02.24-18.04.46:115][748]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.02.24-18.04.46:115][748]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.02.24-18.04.46:115][748]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.24-18.04.46:121][748]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.24-18.04.46:121][748]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.24-18.04.46:121][748]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.24-18.04.46:121][748]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.24-18.04.46:121][748]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.24-18.04.46:121][748]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.24-18.04.46:132][748]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.24-18.04.46:141][748]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.24-18.04.46:148][748]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.24-18.04.46:158][748]LogExit: Exiting.
+[2015.02.24-18.04.46:162][748]Log file closed, 02/24/15 18:04:46
