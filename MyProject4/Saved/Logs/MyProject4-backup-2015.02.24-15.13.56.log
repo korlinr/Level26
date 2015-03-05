@@ -1,0 +1,730 @@
+﻿Log file open, 02/20/15 16:05:38
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.5.0-2326478+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 11 2014 09:24:31
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.20-16.05.38:572][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.02.20-16.05.38:598][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.20-16.05.38:612][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.20-16.05.38:620][  0]LogInit: Object subsystem initialized
+[2015.02.20-16.05.38:623][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.02.20-16.05.38:623][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.20-16.05.38:623][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.02.20-16.05.38:623][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.02.20-16.05.38:623][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.20-16.05.38:623][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.20-16.05.38:628][  0]LogInit: Computer: RINGLETLTD18-PC
+[2015.02.20-16.05.38:628][  0]LogInit: User: Fulltime
+[2015.02.20-16.05.38:629][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.02.20-16.05.38:629][  0]LogInit: High frequency timer resolution =3.125058 MHz
+[2015.02.20-16.05.38:629][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.02.20-16.05.38:629][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.20-16.05.38:629][  0]LogMemory: Process Physical Memory: 63.36 MB used, 63.36 MB peak
+[2015.02.20-16.05.38:629][  0]LogMemory: Process Virtual Memory: 40.57 MB used, 40.57 MB peak
+[2015.02.20-16.05.38:629][  0]LogMemory: Physical Memory: 5238.54 MB used, 8127.42 MB total
+[2015.02.20-16.05.38:630][  0]LogMemory: Virtual Memory: 270.57 MB used, 8388608.00 MB total
+[2015.02.20-16.05.38:729][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.02.20-16.05.38:729][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.02.20-16.05.38:729][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.20-16.05.38:736][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.02.20-16.05.38:744][  0]LogD3D11RHI: Async texture creation enabled
+[2015.02.20-16.05.38:798][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.02.20-16.05.38:943][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.20-16.05.44:586][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.20-16.05.45:180][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.20-16.05.45:304][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.20-16.05.45:682][  0]LogDerivedDataCache: Loaded boot cache 0.38s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.20-16.05.45:682][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2015.02.20-16.05.45:682][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fulltime/Documents/Level26/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.20-16.05.45:682][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.20-16.05.45:759][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.20-16.05.45:770][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fulltime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.20-16.05.48:206][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.20-16.05.48:206][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.20-16.05.48:487][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.20-16.05.48:490][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.20-16.05.48:631][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.20-16.05.58:068][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.20-16.05.58:361][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Fulltime/Documents/Level26/MyProject4/Binaries/Win64. Error: 0
+[2015.02.20-16.05.58:525][  0]SourceControl: Info Source control is disabled
+[2015.02.20-16.05.58:525][  0]SourceControl: Info Source control is disabled
+[2015.02.20-16.05.58:531][  0]SourceControl: Info Source control is disabled
+[2015.02.20-16.05.58:849][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2015.02.20-16.05.58:849][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2015.02.20-16.05.58:919][  0]LogEngine: Initializing Engine...
+[2015.02.20-16.05.59:048][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.02.20-16.05.59:070][  0]LogInit: FAudioDevice initialized.
+[2015.02.20-16.05.59:111][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.20-16.05.59:148][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2015.02.20-16.05.59:150][  0]LogInit: Texture streaming: Enabled
+[2015.02.20-16.05.59:209][  0]LogInit: Transaction tracking system initialized
+[2015.02.20-16.05.59:358][  0]BlueprintLog: New page: Editor Load
+[2015.02.20-16.05.59:416][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2015.02.20-16.05.59:416][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.20-16.06.00:149][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.20-16.06.00:439][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.20-16.06.00:923][  0]LogConsoleResponse:Display: 
+[2015.02.20-16.06.01:399][  0]SourceControl: Info Source control is disabled
+[2015.02.20-16.06.01:399][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.20-16.06.01:400][  0]LightingResults: New page: Lighting Build
+[2015.02.20-16.06.01:406][  0]MapCheck: New page: Map Check
+[2015.02.20-16.06.01:406][  0]LightingResults: New page: Lighting Build
+[2015.02.20-16.06.01:419][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000130E4F40
+[2015.02.20-16.06.02:875][  0]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.06.02:875][  0]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.06.02:876][  0]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.06.02:876][  0]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.06.02:876][  0]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.06.02:878][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.20-16.06.02:878][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.20-16.06.02:878][  0]Cmd: MAP CHECKDEP
+[2015.02.20-16.06.02:879][  0]MapCheck: New page: Example_Map - 20 Feb 2015 16:06:02
+[2015.02.20-16.06.02:966][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.29ms to complete.
+[2015.02.20-16.06.02:966][  0]LogFileHelpers: Loading map 'Example_Map' took 1.567
+[2015.02.20-16.06.03:075][  0]LogCollectionManager: Loaded 0 collections in 0.000903 seconds
+[2015.02.20-16.06.04:083][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.20-16.06.05:636][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.20-16.06.05:722][  0]LogLoad: Full Startup: 29.13 seconds (BP compile: 0.20 seconds)
+[2015.02.20-16.06.06:066][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.02.20-16.06.06:067][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Props'
+[2015.02.20-16.06.06:420][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x904.
+[2015.02.20-16.06.06:499][  0]LogRenderer:Warning: Reallocating scene render targets to support 1432x944.
+[2015.02.20-16.06.07:283][  3]LogAssetRegistry: Asset discovery search completed in 7.8776 seconds
+[2015.02.20-16.06.14:517][161]LogEditorViewport: Clicking on Actor (LMB): BoxChair_C (BoxChair_6)
+[2015.02.20-16.06.16:390][282]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.06.16:488][289]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.06.16:611][298]LogBlueprintUserMessages: 22791.53125
+[2015.02.20-16.06.16:679][303]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.06.16:885][318]LogBlueprintUserMessages: 22791.53125
+[2015.02.20-16.06.16:929][321]LogBlueprintUserMessages: 34350.359375
+[2015.02.20-16.06.17:015][327]LogBlueprintUserMessages: 48591.644531
+[2015.02.20-16.06.18:085][404]LogBlueprintUserMessages: 65621.09375
+[2015.02.20-16.06.18:155][409]LogBlueprintUserMessages: 85533.578125
+[2015.02.20-16.06.18:212][413]LogBlueprintUserMessages: 65621.09375
+[2015.02.20-16.06.18:323][421]LogBlueprintUserMessages: 85533.578125
+[2015.02.20-16.06.18:449][430]LogBlueprintUserMessages: 108415.390625
+[2015.02.20-16.06.18:575][439]LogBlueprintUserMessages: 134345.9375
+[2015.02.20-16.06.18:673][446]LogBlueprintUserMessages: 163398.78125
+[2015.02.20-16.06.18:701][448]LogBlueprintUserMessages: 134345.9375
+[2015.02.20-16.06.18:746][451]LogBlueprintUserMessages: 163398.78125
+[2015.02.20-16.06.18:813][455]LogBlueprintUserMessages: 195642.65625
+[2015.02.20-16.06.18:911][461]LogBlueprintUserMessages: 231142.125
+[2015.02.20-16.06.19:086][472]LogBlueprintUserMessages: 269958.09375
+[2015.02.20-16.06.19:103][473]LogBlueprintUserMessages: 231142.125
+[2015.02.20-16.06.19:152][476]LogBlueprintUserMessages: 269958.09375
+[2015.02.20-16.06.19:203][479]LogBlueprintUserMessages: 312148.28125
+[2015.02.20-16.06.19:300][485]LogBlueprintUserMessages: 357767.65625
+[2015.02.20-16.06.19:352][488]LogBlueprintUserMessages: 406868.5625
+[2015.02.20-16.06.19:416][492]LogBlueprintUserMessages: 459501.125
+[2015.02.20-16.06.19:501][498]LogBlueprintUserMessages: 515713.4375
+[2015.02.20-16.06.19:545][501]LogBlueprintUserMessages: 575551.8125
+[2015.02.20-16.06.19:717][513]LogBlueprintUserMessages: 639060.5625
+[2015.02.20-16.06.19:761][516]LogBlueprintUserMessages: 706282.8125
+[2015.02.20-16.06.19:805][519]LogBlueprintUserMessages: 777260.0
+[2015.02.20-16.06.19:862][523]LogBlueprintUserMessages: 852032.1875
+[2015.02.20-16.06.19:910][526]LogBlueprintUserMessages: 930638.625
+[2015.02.20-16.06.19:939][528]LogBlueprintUserMessages: 852032.1875
+[2015.02.20-16.06.19:952][529]LogBlueprintUserMessages: 930638.625
+[2015.02.20-16.06.19:967][530]LogBlueprintUserMessages: 1013116.5625
+[2015.02.20-16.06.20:109][540]LogBlueprintUserMessages: 1099503.375
+[2015.02.20-16.06.20:166][544]LogBlueprintUserMessages: 1189834.375
+[2015.02.20-16.06.20:278][552]LogBlueprintUserMessages: 1284144.375
+[2015.02.20-16.06.20:403][561]LogBlueprintUserMessages: 1382467.25
+[2015.02.20-16.06.20:431][563]LogBlueprintUserMessages: 1484836.0
+[2015.02.20-16.06.20:445][564]LogBlueprintUserMessages: 1591282.75
+[2015.02.20-16.06.20:445][564]LogBlueprintUserMessages: 1484836.0
+[2015.02.20-16.06.20:474][566]LogBlueprintUserMessages: 1591282.75
+[2015.02.20-16.06.20:502][568]LogBlueprintUserMessages: 1701839.375
+[2015.02.20-16.06.20:543][571]LogBlueprintUserMessages: 1816536.375
+[2015.02.20-16.06.20:572][573]LogBlueprintUserMessages: 1935403.875
+[2015.02.20-16.06.20:586][574]LogBlueprintUserMessages: 2058471.875
+[2015.02.20-16.06.20:601][575]LogBlueprintUserMessages: 2185768.0
+[2015.02.20-16.06.20:628][577]LogBlueprintUserMessages: 2317322.0
+[2015.02.20-16.06.20:657][579]LogBlueprintUserMessages: 2453160.5
+[2015.02.20-16.06.20:782][588]LogBlueprintUserMessages: 2593311.5
+[2015.02.20-16.06.20:811][590]LogBlueprintUserMessages: 2737801.25
+[2015.02.20-16.06.20:853][593]LogBlueprintUserMessages: 2886656.25
+[2015.02.20-16.06.20:853][593]LogBlueprintUserMessages: 2737801.25
+[2015.02.20-16.06.20:911][597]LogBlueprintUserMessages: 2886656.25
+[2015.02.20-16.06.20:926][598]LogBlueprintUserMessages: 3039901.5
+[2015.02.20-16.06.20:941][599]LogBlueprintUserMessages: 3197563.5
+[2015.02.20-16.06.20:969][601]LogBlueprintUserMessages: 3359666.0
+[2015.02.20-16.06.20:999][603]LogBlueprintUserMessages: 3526234.5
+[2015.02.20-16.06.21:013][604]LogBlueprintUserMessages: 3697292.25
+[2015.02.20-16.06.21:041][606]LogBlueprintUserMessages: 3872863.5
+[2015.02.20-16.06.21:082][609]LogBlueprintUserMessages: 4052971.5
+[2015.02.20-16.06.21:141][613]LogBlueprintUserMessages: 4237638.5
+[2015.02.20-16.06.21:169][615]LogBlueprintUserMessages: 4426888.0
+[2015.02.20-16.06.21:183][616]LogBlueprintUserMessages: 4620742.0
+[2015.02.20-16.06.21:212][618]LogBlueprintUserMessages: 4819222.0
+[2015.02.20-16.06.21:226][619]LogBlueprintUserMessages: 5022351.0
+[2015.02.20-16.06.21:226][619]LogBlueprintUserMessages: 4819222.0
+[2015.02.20-16.06.21:269][622]LogBlueprintUserMessages: 5022351.0
+[2015.02.20-16.06.21:282][623]LogBlueprintUserMessages: 5230149.0
+[2015.02.20-16.06.21:311][625]LogBlueprintUserMessages: 5442637.5
+[2015.02.20-16.06.21:341][627]LogBlueprintUserMessages: 5659838.0
+[2015.02.20-16.06.21:354][628]LogBlueprintUserMessages: 5881770.0
+[2015.02.20-16.06.21:383][630]LogBlueprintUserMessages: 6108454.5
+[2015.02.20-16.06.21:383][630]LogBlueprintUserMessages: 5881770.0
+[2015.02.20-16.06.21:412][632]LogBlueprintUserMessages: 6108454.5
+[2015.02.20-16.06.21:427][633]LogBlueprintUserMessages: 6339910.5
+[2015.02.20-16.06.21:441][634]LogBlueprintUserMessages: 6576159.0
+[2015.02.20-16.06.21:455][635]LogBlueprintUserMessages: 6817219.5
+[2015.02.20-16.06.21:483][637]LogBlueprintUserMessages: 7063109.5
+[2015.02.20-16.06.21:512][639]LogBlueprintUserMessages: 7313850.5
+[2015.02.20-16.06.21:555][642]LogBlueprintUserMessages: 7569459.5
+[2015.02.20-16.06.21:584][644]LogBlueprintUserMessages: 7829956.0
+[2015.02.20-16.06.21:600][645]LogBlueprintUserMessages: 8095358.0
+[2015.02.20-16.06.21:600][645]LogBlueprintUserMessages: 7829956.0
+[2015.02.20-16.06.21:614][646]LogBlueprintUserMessages: 8095358.0
+[2015.02.20-16.06.21:629][647]LogBlueprintUserMessages: 8365685.0
+[2015.02.20-16.06.21:657][649]LogBlueprintUserMessages: 8640952.0
+[2015.02.20-16.06.21:673][650]LogBlueprintUserMessages: 8921180.0
+[2015.02.20-16.06.21:702][652]LogBlueprintUserMessages: 9206384.0
+[2015.02.20-16.06.21:715][653]LogBlueprintUserMessages: 9496585.0
+[2015.02.20-16.06.21:745][655]LogBlueprintUserMessages: 9791796.0
+[2015.02.20-16.06.21:760][656]LogBlueprintUserMessages: 10092036.0
+[2015.02.20-16.06.21:775][657]LogBlueprintUserMessages: 10397324.0
+[2015.02.20-16.06.21:789][658]LogBlueprintUserMessages: 10707674.0
+[2015.02.20-16.06.21:818][660]LogBlueprintUserMessages: 11023104.0
+[2015.02.20-16.06.21:847][662]LogBlueprintUserMessages: 11343628.0
+[2015.02.20-16.06.21:877][664]LogBlueprintUserMessages: 11669264.0
+[2015.02.20-16.06.21:877][664]LogBlueprintUserMessages: 11343628.0
+[2015.02.20-16.06.21:892][665]LogBlueprintUserMessages: 11669264.0
+[2015.02.20-16.06.21:908][666]LogBlueprintUserMessages: 12000030.0
+[2015.02.20-16.06.21:922][667]LogBlueprintUserMessages: 12335938.0
+[2015.02.20-16.06.21:937][668]LogBlueprintUserMessages: 12677006.0
+[2015.02.20-16.06.21:951][669]LogBlueprintUserMessages: 13023250.0
+[2015.02.20-16.06.21:967][670]LogBlueprintUserMessages: 13374685.0
+[2015.02.20-16.06.21:995][672]LogBlueprintUserMessages: 13731329.0
+[2015.02.20-16.06.22:010][673]LogBlueprintUserMessages: 13374685.0
+[2015.02.20-16.06.22:024][674]LogBlueprintUserMessages: 13731329.0
+[2015.02.20-16.06.22:040][675]LogBlueprintUserMessages: 14093190.0
+[2015.02.20-16.06.22:069][677]LogBlueprintUserMessages: 14460290.0
+[2015.02.20-16.06.22:083][678]LogBlueprintUserMessages: 14832642.0
+[2015.02.20-16.06.22:111][680]LogBlueprintUserMessages: 15210261.0
+[2015.02.20-16.06.22:125][681]LogBlueprintUserMessages: 15593160.0
+[2015.02.20-16.06.22:140][682]LogBlueprintUserMessages: 15981355.0
+[2015.02.20-16.06.22:153][683]LogBlueprintUserMessages: 16374862.0
+[2015.02.20-16.06.22:169][684]LogBlueprintUserMessages: 16773693.0
+[2015.02.20-16.06.22:183][685]LogBlueprintUserMessages: 17177862.0
+[2015.02.20-16.06.22:199][686]LogBlueprintUserMessages: 17587384.0
+[2015.02.20-16.06.22:213][687]LogBlueprintUserMessages: 18422546.0
+[2015.02.20-16.06.22:228][688]LogBlueprintUserMessages: 18848216.0
+[2015.02.20-16.06.22:243][689]LogBlueprintUserMessages: 19715786.0
+[2015.02.20-16.06.22:257][690]LogBlueprintUserMessages: 20605100.0
+[2015.02.20-16.06.22:273][691]LogBlueprintUserMessages: 21057948.0
+[2015.02.20-16.06.22:287][692]LogBlueprintUserMessages: 21980078.0
+[2015.02.20-16.06.22:302][693]LogBlueprintUserMessages: 22449388.0
+[2015.02.20-16.06.22:316][694]LogBlueprintUserMessages: 22924212.0
+[2015.02.20-16.06.22:347][696]LogBlueprintUserMessages: 23404568.0
+[2015.02.20-16.06.22:364][697]LogBlueprintUserMessages: 24381910.0
+[2015.02.20-16.06.22:383][698]LogBlueprintUserMessages: 25381512.0
+[2015.02.20-16.06.22:399][699]LogBlueprintUserMessages: 25889696.0
+[2015.02.20-16.06.22:400][699]LogBlueprintUserMessages: 25381512.0
+[2015.02.20-16.06.22:420][700]LogBlueprintUserMessages: 26922878.0
+[2015.02.20-16.06.22:437][701]LogBlueprintUserMessages: 27978568.0
+[2015.02.20-16.06.22:453][702]LogBlueprintUserMessages: 30716906.0
+[2015.02.20-16.06.22:453][702]LogBlueprintUserMessages: 30157870.0
+[2015.02.20-16.06.22:472][703]LogBlueprintUserMessages: 32428340.0
+[2015.02.20-16.06.22:487][704]LogBlueprintUserMessages: 34191476.0
+[2015.02.20-16.06.22:487][704]LogBlueprintUserMessages: 33598000.0
+[2015.02.20-16.06.22:504][705]LogBlueprintUserMessages: 35395772.0
+[2015.02.20-16.06.22:521][706]LogBlueprintUserMessages: 38508232.0
+[2015.02.20-16.06.22:521][706]LogBlueprintUserMessages: 37874072.0
+[2015.02.20-16.06.22:539][707]LogBlueprintUserMessages: 40445880.0
+[2015.02.20-16.06.22:554][708]LogBlueprintUserMessages: 42436524.0
+[2015.02.20-16.06.22:555][708]LogBlueprintUserMessages: 41767072.0
+[2015.02.20-16.06.22:572][709]LogBlueprintUserMessages: 44480436.0
+[2015.02.20-16.06.22:588][710]LogBlueprintUserMessages: 45872776.0
+[2015.02.20-16.06.22:588][710]LogBlueprintUserMessages: 45173624.0
+[2015.02.20-16.06.22:607][711]LogBlueprintUserMessages: 47288996.0
+[2015.02.20-16.06.22:622][712]LogBlueprintUserMessages: 50193420.0
+[2015.02.20-16.06.22:641][713]LogBlueprintUserMessages: 51681764.0
+[2015.02.20-16.06.22:657][714]LogBlueprintUserMessages: 53194320.0
+[2015.02.20-16.06.22:676][715]LogBlueprintUserMessages: 54731144.0
+[2015.02.20-16.06.22:694][716]LogBlueprintUserMessages: 56292320.0
+[2015.02.20-16.06.22:695][716]LogBlueprintUserMessages: 55508680.0
+[2015.02.20-16.06.22:711][717]LogBlueprintUserMessages: 57082076.0
+[2015.02.20-16.06.22:727][718]LogBlueprintUserMessages: 59488072.0
+[2015.02.20-16.06.22:744][719]LogBlueprintUserMessages: 61122776.0
+[2015.02.20-16.06.22:761][720]LogBlueprintUserMessages: 62782136.0
+[2015.02.20-16.06.22:779][721]LogBlueprintUserMessages: 64466224.0
+[2015.02.20-16.06.22:795][722]LogBlueprintUserMessages: 67038888.0
+[2015.02.20-16.06.22:812][723]LogBlueprintUserMessages: 68785120.0
+[2015.02.20-16.06.22:828][724]LogBlueprintUserMessages: 73260152.0
+[2015.02.20-16.06.22:845][725]LogBlueprintUserMessages: 76953328.0
+[2015.02.20-16.06.22:861][726]LogBlueprintUserMessages: 79789576.0
+[2015.02.20-16.06.22:991][734]LogBlueprintUserMessages: 80747680.0
+[2015.02.20-16.06.23:010][735]LogBlueprintUserMessages: 81712144.0
+[2015.02.20-16.06.23:027][736]LogBlueprintUserMessages: 82682976.0
+[2015.02.20-16.06.23:404][763]LogBlueprintUserMessages: 82682976.0
+[2015.02.20-16.06.25:512][900]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.20-16.06.25:512][900]PIE: New page: PIE session: Example_Map (20 Feb 2015 16:06:25)
+[2015.02.20-16.06.25:597][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085168s)
+[2015.02.20-16.06.25:598][900]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2015.02.20-16.06.25:598][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Example_Map.Example_Map to /Game/Maps/UEDPIE_0_Example_Map.Example_Map (0.085981s)
+[2015.02.20-16.06.25:646][900]LogWorld: Game class is 'MyGame_C'
+[2015.02.20-16.06.25:647][900]LogAIModule: Creating AISystem for world Example_Map
+[2015.02.20-16.06.25:649][900]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Example_Map.Example_Map up for play (max tick rate 0) at 2015.02.20-16.06.25
+[2015.02.20-16.06.25:649][900]LogWorld: Bringing up level for play took: 0.001891
+[2015.02.20-16.06.25:651][900]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Example_Map -0.339
+[2015.02.20-16.06.27:403][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.20-16.06.27:437][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022260E00
+[2015.02.20-16.06.28:794][106]Cmd: TRANSACTION UNDO
+[2015.02.20-16.06.28:794][106]LogEditorTransaction: Undo Scale Actors
+[2015.02.20-16.06.28:794][106]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_17.TRASH_StaticMeshComponent_10) Trying to register component with IsPendingKill() == true. Aborting.
+[2015.02.20-16.06.28:795][106]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.06.28:891][106]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.06.28:891][106]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.06.28:891][106]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.06.28:892][106]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.06.28:892][106]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.07.36:577][130]BlueprintLog: New page: Compile BoxChair
+[2015.02.20-16.07.36:636][130]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.07.36:636][130]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.36:637][130]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.36:637][130]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.07.36:637][130]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.07.36:700][130]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.20-16.07.36:754][130]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.07.36:755][130]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.36:755][130]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.36:756][130]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.07.36:756][130]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.07.36:819][130]BlueprintEditorCompileResults: Info [0120.05] Compile of BoxChair successful! [in 9 ms]
+[2015.02.20-16.07.39:369][268]LogBlueprintUserMessages: 609.664612
+[2015.02.20-16.07.39:386][269]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.39:791][292]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.07.39:966][302]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.39:983][303]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.07.40:155][313]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.07.40:227][317]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.07.40:316][322]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.07.40:695][344]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.07.40:732][346]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.07.40:990][361]LogBlueprintUserMessages: 22791.53125
+[2015.02.20-16.07.41:219][374]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.07.41:721][403]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.07.42:423][440]Cmd: TRANSACTION UNDO
+[2015.02.20-16.07.42:423][440]LogEditorTransaction: Undo Scale Actors
+[2015.02.20-16.07.42:423][440]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_3.TRASH_StaticMeshComponent_16) Trying to register component with IsPendingKill() == true. Aborting.
+[2015.02.20-16.07.42:424][440]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.42:438][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.20-16.07.42:524][440]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.07.42:524][440]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.42:525][440]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.07.42:525][440]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.07.42:526][440]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.07.48:065][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:065][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:095][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:095][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:095][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:095][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:095][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.07.48:096][733]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2015.02.20-16.08.41:706][416]BlueprintLog: New page: Compile BoxChair
+[2015.02.20-16.08.41:733][416]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.08.41:733][416]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.41:734][416]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.41:734][416]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.08.41:735][416]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.08.41:800][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.02.20-16.08.41:836][416]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.08.41:836][416]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.41:837][416]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.41:837][416]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.08.41:837][416]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.08.41:906][416]BlueprintEditorCompileResults: Info [0185.14] Compile of BoxChair successful! [in 8 ms]
+[2015.02.20-16.08.43:989][526]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:010][527]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:045][529]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:149][535]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:201][538]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:252][541]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:272][542]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:410][550]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.08.44:410][550]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:481][554]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:500][555]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:626][562]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.08.44:626][562]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:678][565]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:712][567]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:749][569]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:786][571]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:819][573]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:838][574]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:838][574]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:888][577]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:922][579]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.44:957][581]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.44:958][581]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.45:028][585]LogBlueprintUserMessages: 609.664612
+[2015.02.20-16.08.45:078][588]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.45:078][588]LogBlueprintUserMessages: 609.664612
+[2015.02.20-16.08.45:114][590]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.StaticMesh1)
+[2015.02.20-16.08.45:114][590]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.Weight)
+[2015.02.20-16.08.45:114][590]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.StaticMesh1)
+[2015.02.20-16.08.45:114][590]LogBlueprintUserMessages: 0.0
+[2015.02.20-16.08.45:132][591]LogBlueprintUserMessages: 609.664612
+[2015.02.20-16.08.45:149][592]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.StaticMesh1)
+[2015.02.20-16.08.45:149][592]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.Weight)
+[2015.02.20-16.08.45:149][592]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.StaticMesh1)
+[2015.02.20-16.08.45:149][592]LogBlueprintUserMessages: 0.0
+[2015.02.20-16.08.45:300][601]LogBlueprintUserMessages: 609.662537
+[2015.02.20-16.08.45:351][604]LogBlueprintUserMessages: 2900.059814
+[2015.02.20-16.08.45:351][604]LogBlueprintUserMessages: 7221.249023
+[2015.02.20-16.08.45:404][607]LogBlueprintUserMessages: 13795.087891
+[2015.02.20-16.08.45:423][608]LogBlueprintUserMessages: 34350.242188
+[2015.02.20-16.08.45:443][609]LogBlueprintUserMessages: 65620.867188
+[2015.02.20-16.08.45:462][610]LogBlueprintUserMessages: 85533.273438
+[2015.02.20-16.08.45:462][610]LogBlueprintUserMessages: 65620.867188
+[2015.02.20-16.08.45:481][611]LogBlueprintUserMessages: 108415.015625
+[2015.02.20-16.08.45:500][612]LogBlueprintUserMessages: 134345.46875
+[2015.02.20-16.08.45:518][613]LogBlueprintUserMessages: 108415.015625
+[2015.02.20-16.08.45:538][614]LogBlueprintUserMessages: 134345.46875
+[2015.02.20-16.08.45:628][619]LogBlueprintUserMessages: 108415.015625
+[2015.02.20-16.08.45:646][620]LogBlueprintUserMessages: 134345.46875
+[2015.02.20-16.08.45:798][629]LogBlueprintUserMessages: 163398.203125
+[2015.02.20-16.08.45:798][629]LogBlueprintUserMessages: 134345.46875
+[2015.02.20-16.08.45:848][632]LogBlueprintUserMessages: 163398.203125
+[2015.02.20-16.08.46:066][645]LogBlueprintUserMessages: 134345.46875
+[2015.02.20-16.08.46:083][646]LogBlueprintUserMessages: 108415.015625
+[2015.02.20-16.08.46:102][647]LogBlueprintUserMessages: 85533.273438
+[2015.02.20-16.08.46:102][647]LogBlueprintUserMessages: 108415.015625
+[2015.02.20-16.08.46:120][648]LogBlueprintUserMessages: 85533.273438
+[2015.02.20-16.08.46:138][649]LogBlueprintUserMessages: 65620.867188
+[2015.02.20-16.08.46:156][650]LogBlueprintUserMessages: 48591.46875
+[2015.02.20-16.08.46:175][651]LogBlueprintUserMessages: 34350.242188
+[2015.02.20-16.08.46:175][651]LogBlueprintUserMessages: 48591.46875
+[2015.02.20-16.08.46:194][652]LogBlueprintUserMessages: 22791.449219
+[2015.02.20-16.08.46:212][653]LogBlueprintUserMessages: 13795.087891
+[2015.02.20-16.08.46:231][654]LogBlueprintUserMessages: 7221.249023
+[2015.02.20-16.08.46:231][654]LogBlueprintUserMessages: 13795.087891
+[2015.02.20-16.08.46:249][655]LogBlueprintUserMessages: 2900.059814
+[2015.02.20-16.08.46:268][656]LogBlueprintUserMessages: 609.662537
+[2015.02.20-16.08.46:285][657]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.StaticMesh1)
+[2015.02.20-16.08.46:285][657]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.Weight)
+[2015.02.20-16.08.46:285][657]LogPrimitiveComponent: Zero scaling not supported (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.StaticMesh1)
+[2015.02.20-16.08.46:285][657]LogBlueprintUserMessages: 0.0
+[2015.02.20-16.08.46:305][658]LogBlueprintUserMessages: 609.664612
+[2015.02.20-16.08.46:322][659]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.46:394][663]LogBlueprintUserMessages: 7221.273926
+[2015.02.20-16.08.46:446][666]LogBlueprintUserMessages: 13795.135742
+[2015.02.20-16.08.46:464][667]LogBlueprintUserMessages: 22791.53125
+[2015.02.20-16.08.46:500][669]LogBlueprintUserMessages: 34350.359375
+[2015.02.20-16.08.46:517][670]LogBlueprintUserMessages: 48591.644531
+[2015.02.20-16.08.46:535][671]LogBlueprintUserMessages: 65621.09375
+[2015.02.20-16.08.46:553][672]LogBlueprintUserMessages: 85533.578125
+[2015.02.20-16.08.46:572][673]LogBlueprintUserMessages: 108415.390625
+[2015.02.20-16.08.46:606][675]LogBlueprintUserMessages: 134345.9375
+[2015.02.20-16.08.47:138][706]LogBlueprintUserMessages: 108415.390625
+[2015.02.20-16.08.47:196][709]LogBlueprintUserMessages: 134345.9375
+[2015.02.20-16.08.47:254][712]LogBlueprintUserMessages: 163398.78125
+[2015.02.20-16.08.47:330][716]LogBlueprintUserMessages: 195642.65625
+[2015.02.20-16.08.47:367][718]LogBlueprintUserMessages: 231142.125
+[2015.02.20-16.08.47:424][721]LogBlueprintUserMessages: 269958.09375
+[2015.02.20-16.08.47:537][727]LogBlueprintUserMessages: 312148.28125
+[2015.02.20-16.08.47:596][730]LogBlueprintUserMessages: 357767.65625
+[2015.02.20-16.08.47:596][730]LogBlueprintUserMessages: 312148.28125
+[2015.02.20-16.08.47:616][731]LogBlueprintUserMessages: 357767.65625
+[2015.02.20-16.08.47:672][734]LogBlueprintUserMessages: 406868.5625
+[2015.02.20-16.08.47:738][738]LogBlueprintUserMessages: 459501.125
+[2015.02.20-16.08.47:771][740]LogBlueprintUserMessages: 515713.4375
+[2015.02.20-16.08.47:804][742]LogBlueprintUserMessages: 575551.8125
+[2015.02.20-16.08.47:804][742]LogBlueprintUserMessages: 515713.4375
+[2015.02.20-16.08.47:837][744]LogBlueprintUserMessages: 575551.8125
+[2015.02.20-16.08.47:853][745]LogBlueprintUserMessages: 639060.5625
+[2015.02.20-16.08.47:887][747]LogBlueprintUserMessages: 706282.8125
+[2015.02.20-16.08.47:956][751]LogBlueprintUserMessages: 777260.0
+[2015.02.20-16.08.48:008][754]LogBlueprintUserMessages: 706282.8125
+[2015.02.20-16.08.48:026][755]LogBlueprintUserMessages: 777260.0
+[2015.02.20-16.08.48:043][756]LogBlueprintUserMessages: 852032.1875
+[2015.02.20-16.08.48:077][758]LogBlueprintUserMessages: 930638.625
+[2015.02.20-16.08.48:095][759]LogBlueprintUserMessages: 1013116.5625
+[2015.02.20-16.08.48:112][760]LogBlueprintUserMessages: 1099503.375
+[2015.02.20-16.08.48:112][760]LogBlueprintUserMessages: 1013116.5625
+[2015.02.20-16.08.48:230][767]LogBlueprintUserMessages: 1099503.375
+[2015.02.20-16.08.48:314][772]LogBlueprintUserMessages: 1189834.375
+[2015.02.20-16.08.48:348][774]LogBlueprintUserMessages: 1284144.375
+[2015.02.20-16.08.48:348][774]LogBlueprintUserMessages: 1189834.375
+[2015.02.20-16.08.48:367][775]LogBlueprintUserMessages: 1284144.375
+[2015.02.20-16.08.48:383][776]LogBlueprintUserMessages: 1382467.25
+[2015.02.20-16.08.48:402][777]LogBlueprintUserMessages: 1484836.0
+[2015.02.20-16.08.48:419][778]LogBlueprintUserMessages: 1591282.75
+[2015.02.20-16.08.48:453][780]LogBlueprintUserMessages: 1701839.375
+[2015.02.20-16.08.48:453][780]LogBlueprintUserMessages: 1591282.75
+[2015.02.20-16.08.48:487][782]LogBlueprintUserMessages: 1701839.375
+[2015.02.20-16.08.48:506][783]LogBlueprintUserMessages: 1816536.375
+[2015.02.20-16.08.48:539][785]LogBlueprintUserMessages: 1935403.875
+[2015.02.20-16.08.48:556][786]LogBlueprintUserMessages: 2058471.875
+[2015.02.20-16.08.48:574][787]LogBlueprintUserMessages: 2317322.0
+[2015.02.20-16.08.48:574][787]LogBlueprintUserMessages: 2185768.0
+[2015.02.20-16.08.48:593][788]LogBlueprintUserMessages: 2317322.0
+[2015.02.20-16.08.48:611][789]LogBlueprintUserMessages: 2453160.5
+[2015.02.20-16.08.48:628][790]LogBlueprintUserMessages: 2593311.5
+[2015.02.20-16.08.48:647][791]LogBlueprintUserMessages: 2737801.25
+[2015.02.20-16.08.48:665][792]LogBlueprintUserMessages: 2886656.25
+[2015.02.20-16.08.48:700][794]LogBlueprintUserMessages: 3039901.5
+[2015.02.20-16.08.48:717][795]LogBlueprintUserMessages: 3197563.5
+[2015.02.20-16.08.48:735][796]LogBlueprintUserMessages: 3359666.0
+[2015.02.20-16.08.48:736][796]LogBlueprintUserMessages: 3197563.5
+[2015.02.20-16.08.48:752][797]LogBlueprintUserMessages: 3359666.0
+[2015.02.20-16.08.48:771][798]LogBlueprintUserMessages: 3526234.5
+[2015.02.20-16.08.48:788][799]LogBlueprintUserMessages: 3697292.25
+[2015.02.20-16.08.48:807][800]LogBlueprintUserMessages: 3872863.5
+[2015.02.20-16.08.48:826][801]LogBlueprintUserMessages: 4052971.5
+[2015.02.20-16.08.48:893][805]LogBlueprintUserMessages: 4237638.5
+[2015.02.20-16.08.48:926][807]LogBlueprintUserMessages: 4052971.5
+[2015.02.20-16.08.49:153][821]LogBlueprintUserMessages: 3872863.5
+[2015.02.20-16.08.49:153][821]LogBlueprintUserMessages: 4052971.5
+[2015.02.20-16.08.49:187][823]LogBlueprintUserMessages: 3872863.5
+[2015.02.20-16.08.49:370][834]LogBlueprintUserMessages: 3872863.5
+[2015.02.20-16.08.49:712][855]Cmd: TRANSACTION UNDO
+[2015.02.20-16.08.49:712][855]LogEditorTransaction: Undo Scale Actors
+[2015.02.20-16.08.49:712][855]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxChair_C_7.TRASH_StaticMeshComponent_20) Trying to register component with IsPendingKill() == true. Aborting.
+[2015.02.20-16.08.49:712][855]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.49:725][855]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.02.20-16.08.49:804][855]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.08.49:805][855]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.49:805][855]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.08.49:806][855]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.08.49:806][855]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.08.55:995][179]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.02.20-16.09.32:915][304]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.09.32:915][304]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.09.32:915][304]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.09.32:916][304]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.09.32:916][304]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.09.32:916][304]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.02.20-16.09.45:873][926]LogBlueprintUserMessages: 1094.584473
+[2015.02.20-16.09.45:873][926]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.09.45:874][926]LogBlueprintUserMessages: 2900.070313
+[2015.02.20-16.09.45:874][926]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.09.45:874][926]LogBlueprintUserMessages: 7051.640625
+[2015.02.20-16.11.04:711][476]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.20-16.16.08:882][387]LogSavePackage: Save=143.259735ms
+[2015.02.20-16.16.08:882][387]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Example_Map_Auto1B58D9B0B412816FC3980CE8F2D97310A.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Maps/Example_Map_Auto1.umap'
+[2015.02.20-16.16.08:899][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Example_Map' took 0.266
+[2015.02.20-16.16.08:899][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.266
+[2015.02.20-16.16.08:910][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BoxChair] ([1] browsable assets)...
+[2015.02.20-16.16.08:930][387]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BoxChair.BoxChair]
+[2015.02.20-16.16.08:930][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BoxChair]
+[2015.02.20-16.16.09:333][387]LogSavePackage: Save=382.925049ms
+[2015.02.20-16.16.09:333][387]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/BoxChair_Auto1E8A14BF54FCF1E1B78192486C35057C6.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/BoxChair_Auto1.uasset'
+[2015.02.20-16.16.09:349][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/MyCharacter] ([1] browsable assets)...
+[2015.02.20-16.16.09:398][387]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/MyCharacter.MyCharacter]
+[2015.02.20-16.16.09:398][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyCharacter]
+[2015.02.20-16.16.09:847][387]LogSavePackage: Save=427.658630ms
+[2015.02.20-16.16.09:847][387]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/MyCharacter_Auto169C7627B40C8E902EBC34E81A9CC1A28.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/MyCharacter_Auto1.uasset'
+[2015.02.20-16.16.09:865][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/JumpingBox] ([1] browsable assets)...
+[2015.02.20-16.16.09:912][387]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/JumpingBox.JumpingBox]
+[2015.02.20-16.16.09:912][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/JumpingBox]
+[2015.02.20-16.16.10:311][387]LogSavePackage: Save=379.389130ms
+[2015.02.20-16.16.10:311][387]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/JumpingBox_Auto167DAB61C432BCFA43738A89A3D43BB01.tmp' to '../../../../../../Users/Fulltime/Documents/Level26/MyProject4/Saved/Autosaves/Game/Blueprints/JumpingBox_Auto1.uasset'
+[2015.02.20-16.16.10:361][387]LogFileHelpers: Auto-saving content packages took 1.462
+[2015.02.20-19.12.32:372][132]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.20-19.12.32:874][133]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.20-19.12.37:525][144]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.20-19.12.38:029][145]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2015.02.20-19.12.44:363][157]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.02.20-19.12.50:042][158]Cmd: QUIT_EDITOR
+[2015.02.20-19.12.50:505][158]LogExit: Preparing to exit.
+[2015.02.20-19.12.51:262][158]LogExit: Editor shut down
+[2015.02.20-19.12.51:262][158]LogExit: Transaction tracking system shut down
+[2015.02.20-19.12.51:269][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CDCF2E0
+[2015.02.20-19.12.51:270][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E370B80
+[2015.02.20-19.12.51:270][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EC605E0
+[2015.02.20-19.12.51:270][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3FE160
+[2015.02.20-19.12.51:270][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019197D80
+[2015.02.20-19.12.51:271][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018ECEAC0
+[2015.02.20-19.12.51:901][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023A8E160
+[2015.02.20-19.12.51:901][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023A8D1C0
+[2015.02.20-19.12.51:901][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023827920
+[2015.02.20-19.12.51:901][158]LogExit: Object subsystem successfully closed.
+[2015.02.20-19.12.52:677][158]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (167)
+[2015.02.20-19.12.52:677][158]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (166)
+[2015.02.20-19.12.52:677][158]LogModuleManager: Shutting down and abandoning module CrashTracker (165)
+[2015.02.20-19.12.52:677][158]LogModuleManager: Shutting down and abandoning module SuperSearch (164)
+[2015.02.20-19.12.52:678][158]LogModuleManager: Shutting down and abandoning module SceneOutliner (163)
+[2015.02.20-19.12.52:678][158]LogModuleManager: Shutting down and abandoning module EditorWidgets (162)
+[2015.02.20-19.12.52:678][158]LogModuleManager: Shutting down and abandoning module CollectionManager (161)
+[2015.02.20-19.12.52:684][158]LogModuleManager: Shutting down and abandoning module StatsViewer (160)
+[2015.02.20-19.12.52:697][158]LogModuleManager: Shutting down and abandoning module FoliageEdit (159)
+[2015.02.20-19.12.52:706][158]LogModuleManager: Shutting down and abandoning module LandscapeEditor (158)
+[2015.02.20-19.12.52:713][158]LogModuleManager: Shutting down and abandoning module MeshPaint (157)
+[2015.02.20-19.12.52:719][158]LogModuleManager: Shutting down and abandoning module ActorPickerMode (156)
+[2015.02.20-19.12.52:720][158]LogModuleManager: Shutting down and abandoning module GeometryMode (155)
+[2015.02.20-19.12.52:720][158]LogModuleManager: Shutting down and abandoning module TextureAlignMode (154)
+[2015.02.20-19.12.52:720][158]LogModuleManager: Shutting down and abandoning module BspMode (153)
+[2015.02.20-19.12.52:720][158]LogModuleManager: Shutting down and abandoning module PlacementMode (152)
+[2015.02.20-19.12.52:720][158]LogModuleManager: Shutting down and abandoning module AutomationWorker (151)
+[2015.02.20-19.12.52:720][158]LogModuleManager: Shutting down and abandoning module CharacterAI (150)
+[2015.02.20-19.12.52:720][158]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (149)
+[2015.02.20-19.12.52:729][158]LogModuleManager: Shutting down and abandoning module IntroTutorials (148)
+[2015.02.20-19.12.52:765][158]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (147)
+[2015.02.20-19.12.52:765][158]LogModuleManager: Shutting down and abandoning module HardwareTargeting (146)
+[2015.02.20-19.12.52:765][158]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (145)
+[2015.02.20-19.12.52:781][158]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (144)
+[2015.02.20-19.12.52:796][158]LogModuleManager: Shutting down and abandoning module UndoHistory (143)
+[2015.02.20-19.12.52:796][158]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (142)
+[2015.02.20-19.12.52:817][158]LogModuleManager: Shutting down and abandoning module UserFeedback (141)
+[2015.02.20-19.12.52:817][158]LogModuleManager: Shutting down and abandoning module XmlParser (140)
+[2015.02.20-19.12.52:829][158]LogModuleManager: Shutting down and abandoning module Blutility (139)
+[2015.02.20-19.12.52:839][158]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (138)
+[2015.02.20-19.12.52:839][158]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (137)
+[2015.02.20-19.12.52:839][158]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (136)
+[2015.02.20-19.12.52:839][158]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (135)
+[2015.02.20-19.12.52:839][158]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (134)
+[2015.02.20-19.12.52:839][158]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (133)
+[2015.02.20-19.12.52:839][158]LogModuleManager: Shutting down and abandoning module InputBindingEditor (132)
+[2015.02.20-19.12.52:855][158]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (131)
+[2015.02.20-19.12.52:855][158]LogModuleManager: Shutting down and abandoning module SettingsEditor (130)
+[2015.02.20-19.12.52:862][158]LogModuleManager: Shutting down and abandoning module ProjectLauncher (129)
+[2015.02.20-19.12.52:870][158]LogModuleManager: Shutting down and abandoning module SessionFrontend (128)
+[2015.02.20-19.12.52:879][158]LogModuleManager: Shutting down and abandoning module ProfilerClient (127)
+[2015.02.20-19.12.52:890][158]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (126)
+[2015.02.20-19.12.52:900][158]LogModuleManager: Shutting down and abandoning module DeviceManager (125)
+[2015.02.20-19.12.52:911][158]LogModuleManager: Shutting down and abandoning module AutomationController (124)
+[2015.02.20-19.12.52:924][158]LogModuleManager: Shutting down and abandoning module AutomationWindow (123)
+[2015.02.20-19.12.52:935][158]LogModuleManager: Shutting down and abandoning module Layers (122)
+[2015.02.20-19.12.52:947][158]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (121)
+[2015.02.20-19.12.52:947][158]LogModuleManager: Shutting down and abandoning module DetailCustomizations (120)
+[2015.02.20-19.12.52:958][158]LogModuleManager: Shutting down and abandoning module PackagesDialog (119)
+[2015.02.20-19.12.52:959][158]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2015.02.20-19.12.53:057][158]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2015.02.20-19.12.53:072][158]LogModuleManager: Shutting down and abandoning module Kismet (116)
+[2015.02.20-19.12.53:072][158]LogModuleManager: Shutting down and abandoning module GraphEditor (115)
+[2015.02.20-19.12.53:072][158]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2015.02.20-19.12.53:072][158]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2015.02.20-19.12.53:072][158]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2015.02.20-19.12.53:081][158]LogModuleManager: Shutting down and abandoning module MovieSceneTools (111)
+[2015.02.20-19.12.53:130][158]LogModuleManager: Shutting down and abandoning module OutputLog (110)
+[2015.02.20-19.12.53:130][158]LogModuleManager: Shutting down and abandoning module GammaUI (109)
+[2015.02.20-19.12.53:140][158]LogModuleManager: Shutting down and abandoning module Documentation (108)
+[2015.02.20-19.12.53:140][158]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (107)
+[2015.02.20-19.12.53:151][158]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (106)
+[2015.02.20-19.12.53:151][158]LogModuleManager: Shutting down and abandoning module HTTP (105)
+[2015.02.20-19.12.53:151][158]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2015.02.20-19.12.53:151][158]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2015.02.20-19.12.53:151][158]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2015.02.20-19.12.53:159][158]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2015.02.20-19.12.53:164][158]LogModuleManager: Shutting down and abandoning module ProfilerService (100)
+[2015.02.20-19.12.53:391][158]LogModuleManager: Shutting down and abandoning module TaskGraph (99)
+[2015.02.20-19.12.53:401][158]LogModuleManager: Shutting down and abandoning module SlateRemote (98)
+[2015.02.20-19.12.53:401][158]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (97)
+[2015.02.20-19.12.53:401][158]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (96)
+[2015.02.20-19.12.53:402][158]LogModuleManager: Shutting down and abandoning module CableComponent (95)
+[2015.02.20-19.12.53:402][158]LogModuleManager: Shutting down and abandoning module MessagingDebugger (94)
+[2015.02.20-19.12.53:437][158]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (93)
+[2015.02.20-19.12.53:462][158]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (92)
+[2015.02.20-19.12.53:462][158]LogModuleManager: Shutting down and abandoning module PluginsEditor (91)
+[2015.02.20-19.12.53:492][158]LogModuleManager: Shutting down and abandoning module EpicSurvey (90)
+[2015.02.20-19.12.53:492][158]LogModuleManager: Shutting down and abandoning module DesktopPlatform (89)
+[2015.02.20-19.12.53:517][158]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.02.20-19.12.53:517][158]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.02.20-19.12.53:518][158]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.02.20-19.12.53:529][158]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.02.20-19.12.53:529][158]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.02.20-19.12.53:553][158]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.02.20-19.12.53:553][158]LogModuleManager: Shutting down and abandoning module SlateReflector (82)
+[2015.02.20-19.12.53:577][158]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (81)
+[2015.02.20-19.12.53:577][158]LogModuleManager: Shutting down and abandoning module HotReload (80)
+[2015.02.20-19.12.53:591][158]LogModuleManager: Shutting down and abandoning module MainFrame (79)
+[2015.02.20-19.12.53:591][158]LogModuleManager: Shutting down and abandoning module LevelEditor (78)
+[2015.02.20-19.12.53:598][158]LogModuleManager: Shutting down and abandoning module ViewportSnapping (77)
+[2015.02.20-19.12.53:598][158]LogModuleManager: Shutting down and abandoning module SmartSnapping (76)
+[2015.02.20-19.12.53:598][158]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (75)
+[2015.02.20-19.12.53:598][158]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (74)
+[2015.02.20-19.12.53:604][158]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2015.02.20-19.12.53:604][158]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2015.02.20-19.12.53:604][158]LogModuleManager: Shutting down and abandoning module Paper2DEditor (71)
+[2015.02.20-19.12.53:627][158]LogModuleManager: Shutting down and abandoning module ScriptPlugin (70)
+[2015.02.20-19.12.53:633][158]LogModuleManager: Shutting down and abandoning module UdpMessaging (69)
+[2015.02.20-19.12.53:733][158]LogModuleManager: Shutting down and abandoning module Paper2D (68)
+[2015.02.20-19.12.53:762][158]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (67)
+[2015.02.20-19.12.53:784][158]LogModuleManager: Shutting down and abandoning module Media (66)
+[2015.02.20-19.12.53:784][158]LogModuleManager: Shutting down and abandoning module WmfMedia (65)
+[2015.02.20-19.12.53:806][158]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2015.02.20-19.12.53:806][158]LogModuleManager: Shutting down and abandoning module FunctionalTesting (63)
+[2015.02.20-19.12.53:806][158]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (62)
+[2015.02.20-19.12.53:828][158]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2015.02.20-19.12.53:828][158]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2015.02.20-19.12.53:828][158]LogModuleManager: Shutting down and abandoning module Sequencer (59)
+[2015.02.20-19.12.53:848][158]LogModuleManager: Shutting down and abandoning module AssetTools (58)
+[2015.02.20-19.12.53:872][158]LogModuleManager: Shutting down and abandoning module UMGEditor (57)
+[2015.02.20-19.12.53:881][158]LogModuleManager: Shutting down and abandoning module UMG (56)
+[2015.02.20-19.12.53:885][158]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2015.02.20-19.12.53:885][158]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2015.02.20-19.12.53:899][158]LogModuleManager: Shutting down and abandoning module SessionServices (53)
+[2015.02.20-19.12.53:899][158]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2015.02.20-19.12.53:899][158]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2015.02.20-19.12.53:899][158]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2015.02.20-19.12.53:899][158]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2015.02.20-19.12.53:899][158]LogModuleManager: Shutting down and abandoning module Core (47)
+[2015.02.20-19.12.53:900][158]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2015.02.20-19.12.53:900][158]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2015.02.20-19.12.53:900][158]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2015.02.20-19.12.53:921][158]LogModuleManager: Shutting down and abandoning module DerivedDataCache (43)
+[2015.02.20-19.12.53:955][158]LogDerivedDataCache: Shutdown
+[2015.02.20-19.12.53:955][158]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (42)
+[2015.02.20-19.12.53:967][158]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (41)
+[2015.02.20-19.12.53:978][158]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (40)
+[2015.02.20-19.12.53:986][158]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (39)
+[2015.02.20-19.12.53:986][158]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (38)
+[2015.02.20-19.12.53:997][158]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (37)
+[2015.02.20-19.12.54:005][158]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (36)
+[2015.02.20-19.12.54:005][158]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (35)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (34)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (33)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module Messaging (32)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (31)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (30)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (29)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (28)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.02.20-19.12.54:011][158]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module ImageWrapper (17)
+[2015.02.20-19.12.54:012][158]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2015.02.20-19.12.54:022][158]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (13)
+[2015.02.20-19.12.54:022][158]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2015.02.20-19.12.54:032][158]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2015.02.20-19.12.54:032][158]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.20-19.12.54:046][158]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.20-19.12.54:046][158]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.20-19.12.54:046][158]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.20-19.12.54:046][158]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.20-19.12.54:046][158]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.20-19.12.54:046][158]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.20-19.12.54:056][158]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.20-19.12.54:065][158]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.20-19.12.54:072][158]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.20-19.12.54:075][158]LogExit: Exiting.
+[2015.02.20-19.12.54:087][158]Log file closed, 02/20/15 19:12:54
