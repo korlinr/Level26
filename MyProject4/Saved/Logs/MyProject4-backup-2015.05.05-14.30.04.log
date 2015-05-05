@@ -1,0 +1,642 @@
+﻿Log file open, 04/30/15 13:59:09
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.30-12.59.09:340][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.30-12.59.09:436][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.30-12.59.09:847][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.30-12.59.09:940][  0]LogInit: Object subsystem initialized
+[2015.04.30-12.59.10:044][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.04.30-12.59.10:044][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.30-12.59.10:088][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.04.30-12.59.10:089][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.30-12.59.10:089][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.30-12.59.10:152][  0]LogInit: Computer: RINGLETLTD18-PC
+[2015.04.30-12.59.10:152][  0]LogInit: User: Fulltime
+[2015.04.30-12.59.10:152][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.30-12.59.10:152][  0]LogInit: High frequency timer resolution =3.125029 MHz
+[2015.04.30-12.59.10:164][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.30-12.59.10:165][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.30-12.59.10:165][  0]LogMemory: Process Physical Memory: 50.63 MB used, 50.63 MB peak
+[2015.04.30-12.59.10:165][  0]LogMemory: Process Virtual Memory: 26.34 MB used, 26.34 MB peak
+[2015.04.30-12.59.10:165][  0]LogMemory: Physical Memory: 3096.12 MB used, 8127.42 MB total
+[2015.04.30-12.59.10:165][  0]LogMemory: Virtual Memory: 265.35 MB used, 8388608.00 MB total
+[2015.04.30-12.59.10:308][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.04.30-12.59.10:308][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.04.30-12.59.10:308][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.30-12.59.10:314][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.30-12.59.10:322][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.30-12.59.11:437][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.30-12.59.11:736][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.30-12.59.23:179][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-12.59.23:882][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-12.59.23:977][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.30-12.59.24:352][  0]LogDerivedDataCache: Loaded boot cache 0.38s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.04.30-12.59.24:352][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fulltime/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.04.30-12.59.24:352][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.30-12.59.24:352][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.30-12.59.24:466][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.04.30-12.59.24:516][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fulltime/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.30-12.59.28:364][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.04.30-12.59.29:321][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.30-12.59.29:321][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.30-12.59.31:987][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.30-12.59.32:255][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.30-12.59.48:939][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.30-12.59.49:558][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Fulltime/Documents/Level26 - Copy/MyProject4/Binaries/Win64. Error: 0
+[2015.04.30-12.59.50:382][  0]SourceControl: Info Source control is disabled
+[2015.04.30-12.59.50:382][  0]SourceControl: Info Source control is disabled
+[2015.04.30-12.59.50:386][  0]SourceControl: Info Source control is disabled
+[2015.04.30-12.59.51:076][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.04.30-12.59.51:076][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.04.30-12.59.51:496][  0]LogEngine: Initializing Engine...
+[2015.04.30-12.59.52:152][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.30-12.59.52:208][  0]LogInit: FAudioDevice initialized.
+[2015.04.30-12.59.52:574][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.30-12.59.52:702][  0]LogDerivedDataCache: Saved boot cache 0.04s 39MB C:/Users/Fulltime/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.04.30-12.59.52:704][  0]LogInit: Texture streaming: Enabled
+[2015.04.30-12.59.52:755][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.30-12.59.52:755][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.04.30-12.59.52:756][  0]LogAnalytics: SetUserId 69f16f0a28d0cebab19564fc86df198d
+[2015.04.30-12.59.52:756][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.30-12.59.52:930][  0]LogInit: Transaction tracking system initialized
+[2015.04.30-12.59.53:774][  0]BlueprintLog: New page: Editor Load
+[2015.04.30-12.59.53:946][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.04.30-12.59.53:946][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.30-12.59.55:912][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-12.59.56:293][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.30-12.59.58:642][  0]LogConsoleResponse:Display: 
+[2015.04.30-12.59.59:491][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.30-13.00.04:301][  0]SourceControl: Info Source control is disabled
+[2015.04.30-13.00.04:554][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Content/Maps/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.04.30-13.00.04:563][  0]LightingResults: New page: Lighting Build
+[2015.04.30-13.00.04:748][  0]MapCheck: New page: Map Check
+[2015.04.30-13.00.04:748][  0]LightingResults: New page: Lighting Build
+[2015.04.30-13.00.04:840][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011295940
+[2015.04.30-13.00.07:393][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
+[2015.04.30-13.00.07:405][  0]LogBlueprint:Warning: [compiler] Warning [0068.74] Compile of ScaleCharacter successful, but with 1 Warning(s) [in 31 ms]
+[2015.04.30-13.00.07:725][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
+[2015.04.30-13.00.07:738][  0]LogBlueprint:Warning: [compiler] Warning [0069.08] Compile of MyCharacter successful, but with 1 Warning(s) [in 39 ms]
+[2015.04.30-13.00.07:932][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
+[2015.04.30-13.00.07:947][  0]LogBlueprint:Warning: [compiler] Warning [0069.29] Compile of MyCharacter successful, but with 1 Warning(s) [in 27 ms]
+[2015.04.30-13.00.07:947][  0]LogBlueprint:Warning: [compiler] Warning [0069.29] Compile of MyCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.30-13.00.07:969][  0]LogBlueprint:Warning: [compiler] Warning Function ' Get Player Pawn ' is unsafe to call in a construction script.
+[2015.04.30-13.00.07:982][  0]LogBlueprint:Warning: [compiler] Warning [0069.32] Compile of ScaleCharacter successful, but with 1 Warning(s) [in 21 ms]
+[2015.04.30-13.00.07:982][  0]LogBlueprint:Warning: [compiler] Warning [0069.32] Compile of ScaleCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.30-13.00.09:051][  0]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.00.09:051][  0]LogBlueprint:Warning: [compiler] Warning [0070.39] Compile of Basement successful, but with 1 Warning(s) [in 1 ms]
+[2015.04.30-13.00.09:111][  0]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.00.09:112][  0]LogBlueprint:Warning: [compiler] Warning [0070.45] Compile of Basement successful, but with 1 Warning(s) [in 2 ms]
+[2015.04.30-13.00.09:112][  0]LogBlueprint:Warning: [compiler] Warning [0070.45] Compile of Basement successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.30-13.00.15:028][  0]LogMaterial: Missing cached shader map for material DaylightAmbientCubemap_Mat, compiling.
+[2015.04.30-13.00.15:054][  0]LogMaterial:Warning: Failed to compile Material /Engine/MapTemplates/Sky/DaylightAmbientCubemap_Mat.DaylightAmbientCubemap_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2015.04.30-13.00.15:054][  0]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Parameters.TexCoords[0].xy: float2 -> float3
+[2015.04.30-13.00.16:250][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.00.16:250][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.00.16:250][  0]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.00.16:383][  0]LogBlueprintUserMessages: 93205.328125
+[2015.04.30-13.00.16:384][  0]LogBlueprintUserMessages: 26034.099609
+[2015.04.30-13.00.16:385][  0]LogBlueprintUserMessages: 106388.234375
+[2015.04.30-13.00.16:386][  0]LogBlueprintUserMessages: 46879.800781
+[2015.04.30-13.00.16:387][  0]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.00.16:388][  0]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.00.16:389][  0]LogBlueprintUserMessages: 120789.015625
+[2015.04.30-13.00.16:390][  0]LogBlueprintUserMessages: 17954.421875
+[2015.04.30-13.00.16:391][  0]LogBlueprintUserMessages: 124527.09375
+[2015.04.30-13.00.16:392][  0]LogBlueprintUserMessages: 124527.09375
+[2015.04.30-13.00.16:392][  0]LogBlueprintUserMessages: 106388.234375
+[2015.04.30-13.00.16:393][  0]LogBlueprintUserMessages: 38267.722656
+[2015.04.30-13.00.16:394][  0]LogBlueprintUserMessages: 68460.367188
+[2015.04.30-13.00.16:395][  0]LogBlueprintUserMessages: 17954.421875
+[2015.04.30-13.00.16:521][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.30-13.00.16:544][  0]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.00.16:605][  0]Cmd: MAP CHECKDEP
+[2015.04.30-13.00.16:610][  0]MapCheck: New page: Basement - 30 Apr 2015 15:00:16
+[2015.04.30-13.00.16:755][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 149.636ms to complete.
+[2015.04.30-13.00.16:755][  0]LogFileHelpers: Loading map 'Basement' took 12.280
+[2015.04.30-13.00.17:560][  0]LogCollectionManager: Loaded 0 collections in 0.001546 seconds
+[2015.04.30-13.00.18:814][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.30-13.00.18:899][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.30-13.00.18:949][  0]LogLoad: Full Startup: 80.29 seconds (BP compile: 0.79 seconds)
+[2015.04.30-13.00.19:344][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.30-13.00.19:344][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2015.04.30-13.00.19:682][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x672.
+[2015.04.30-13.00.22:571][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.22:620][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.22:821][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.22:822][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.23:102][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.23:103][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.23:150][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.23:151][  2]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.00.50:381][ 83]LogAssetRegistry: Asset discovery search completed in 56.4459 seconds
+[2015.04.30-13.00.56:018][426]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.00.56:020][426]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.00.56:288][426]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.00.56:366][426]LogBlueprint:Warning: [compiler] Warning [0117.70] Compile of Basement successful, but with 1 Warning(s) [in 331 ms]
+[2015.04.30-13.00.56:376][426]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.04.30-13.00.56:465][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000149BB600
+[2015.04.30-13.00.56:489][426]LogPlayLevel: PIE:  Blueprint regeneration took 471 ms (1 blueprints)
+[2015.04.30-13.00.56:489][426]PIE: New page: PIE session: Basement (30 Apr 2015 15:00:56)
+[2015.04.30-13.00.56:507][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017478s)
+[2015.04.30-13.00.56:508][426]LogPlayLevel: PIE: World Init took: (0.000427s)
+[2015.04.30-13.00.56:508][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.018090s)
+[2015.04.30-13.00.56:609][426]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.00.56:651][426]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.00.56:654][426]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.00.56:654][426]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.00.56:655][426]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.00.56:665][426]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.00.56
+[2015.04.30-13.00.56:686][426]LogWorld: Bringing up level for play took: 0.034566
+[2015.04.30-13.00.56:756][426]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.00.56:756][426]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.00.56:756][426]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.00.56:792][426]LogBlueprintUserMessages: 0
+[2015.04.30-13.00.56:793][426]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement 1.351
+[2015.04.30-13.01.24:396][  2]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.01.24:396][  2]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.01.24:396][  2]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.01.24:396][  2]LogBlueprintUserMessages: 0
+[2015.04.30-13.01.49:900][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000005770C20
+[2015.04.30-13.02.02:727][221]LogEditorViewport: Clicking on Actor (LMB): CheckpointOBJ_C (CheckpointOBJ)
+[2015.04.30-13.02.32:409][684]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.02.32:413][684]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.02.32:463][684]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.02.32:496][684]LogBlueprint:Warning: [compiler] Warning [0213.83] Compile of Basement successful, but with 1 Warning(s) [in 34 ms]
+[2015.04.30-13.02.32:516][684]LogPlayLevel: PIE:  Blueprint regeneration took 107 ms (1 blueprints)
+[2015.04.30-13.02.32:517][684]PIE: New page: PIE session: Basement (30 Apr 2015 15:02:32)
+[2015.04.30-13.02.32:528][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011305s)
+[2015.04.30-13.02.32:529][684]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2015.04.30-13.02.32:529][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.012008s)
+[2015.04.30-13.02.32:558][684]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.02.32:560][684]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.02.32:561][684]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.02.32:561][684]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.02.32:561][684]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.02.32:565][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.02.32
+[2015.04.30-13.02.32:567][684]LogWorld: Bringing up level for play took: 0.006787
+[2015.04.30-13.02.32:568][684]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.02.32:568][684]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.02.32:568][684]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.02.32:569][684]LogBlueprintUserMessages: 0
+[2015.04.30-13.02.32:569][684]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement 1.126
+[2015.04.30-13.02.46:586][490]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:602][491]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:619][492]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:635][493]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:651][494]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:668][495]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:684][496]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:700][497]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:717][498]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:734][499]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:750][500]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:767][501]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:783][502]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:799][503]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:815][504]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:901][509]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:921][510]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:940][511]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:959][512]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:977][513]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.46:995][514]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:012][515]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:030][516]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:048][517]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:067][518]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:085][519]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:103][520]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:121][521]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:139][522]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:158][523]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.47:176][524]LogCharacterMovement: ScaleCharacter_C_2 is stuck and failed to move!
+[2015.04.30-13.02.51:905][801]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002734C5E0
+[2015.04.30-13.06.24:084][646]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.04.30-13.06.29:019][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2015.04.30-13.06.29:027][860]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.07.17:215][699]LogEditorViewport: Clicking on Actor (LMB): Speedpad_C (Speedpad)
+[2015.04.30-13.08.34:768][227]BlueprintLog: New page: Compile Speedpad
+[2015.04.30-13.08.34:854][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.04.30-13.08.34:958][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Speedpad" FILE="../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Content/Blueprints/Speedpad.uasset" SILENT=true
+[2015.04.30-13.08.35:389][227]LogSavePackage: Save=408.012207ms
+[2015.04.30-13.08.35:389][227]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Speedpad74157D104A23F264C82BB78F3521905D.tmp' to '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Content/Blueprints/Speedpad.uasset'
+[2015.04.30-13.08.35:393][227]BlueprintEditorCompileResults: Info [0576.73] Compile of Speedpad successful! [in 589 ms]
+[2015.04.30-13.08.43:387][644]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.08.43:389][644]LogPlayLevel: [PIE] Compiling Tutorial_BP_MacroLib before PIE...
+[2015.04.30-13.08.43:433][644]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.08.43:452][644]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.08.43:484][644]LogBlueprint:Warning: [compiler] Warning [0584.82] Compile of Basement successful, but with 1 Warning(s) [in 33 ms]
+[2015.04.30-13.08.43:500][644]LogPlayLevel: PIE:  Blueprint regeneration took 113 ms (2 blueprints)
+[2015.04.30-13.08.43:500][644]PIE: New page: PIE session: Basement (30 Apr 2015 15:08:43)
+[2015.04.30-13.08.43:510][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009626s)
+[2015.04.30-13.08.43:511][644]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2015.04.30-13.08.43:511][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.010266s)
+[2015.04.30-13.08.43:540][644]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.08.43:541][644]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.08.43:542][644]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.08.43:542][644]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.08.43:542][644]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.08.43:546][644]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.08.43
+[2015.04.30-13.08.43:547][644]LogWorld: Bringing up level for play took: 0.005960
+[2015.04.30-13.08.43:548][644]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.08.43:548][644]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.08.43:548][644]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.08.43:549][644]LogBlueprintUserMessages: 0
+[2015.04.30-13.08.43:549][644]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement 0.103
+[2015.04.30-13.09.21:191][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CEB93A0
+[2015.04.30-13.12.14:827][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.04.30-13.12.14:923][846]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.12.14:928][846]LogBlueprint:Warning: [compiler] Warning [0796.26] Compile of Basement successful, but with 1 Warning(s) [in 5 ms]
+[2015.04.30-13.12.15:561][846]LogSavePackage: Save=639.982544ms
+[2015.04.30-13.12.15:562][846]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Basement_Auto18EDB28FF405D36628AC8A7A20145A867.tmp' to '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Autosaves/Game/Maps/Basement_Auto1.umap'
+[2015.04.30-13.12.15:566][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Basement' took 0.739
+[2015.04.30-13.12.15:566][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.739
+[2015.04.30-13.15.45:313][294]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.15.45:317][294]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.15.45:353][294]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.15.45:415][294]LogBlueprint:Warning: [compiler] Warning [1006.75] Compile of Basement successful, but with 1 Warning(s) [in 64 ms]
+[2015.04.30-13.15.45:433][294]LogPlayLevel: PIE:  Blueprint regeneration took 120 ms (1 blueprints)
+[2015.04.30-13.15.45:434][294]PIE: New page: PIE session: Basement (30 Apr 2015 15:15:45)
+[2015.04.30-13.15.45:444][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010005s)
+[2015.04.30-13.15.45:444][294]LogPlayLevel: PIE: World Init took: (0.000510s)
+[2015.04.30-13.15.45:445][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.010742s)
+[2015.04.30-13.15.45:473][294]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.15.45:475][294]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.15.45:476][294]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.15.45:476][294]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.15.45:476][294]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.15.45:479][294]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.15.45
+[2015.04.30-13.15.45:481][294]LogWorld: Bringing up level for play took: 0.006235
+[2015.04.30-13.15.45:482][294]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.15.45:482][294]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.15.45:482][294]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.15.45:483][294]LogBlueprintUserMessages: 0
+[2015.04.30-13.15.45:483][294]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement 0.033
+[2015.04.30-13.16.04:871][395]LogCharacterMovement: ScaleCharacter_C_4 is stuck and failed to move!
+[2015.04.30-13.16.04:888][396]LogCharacterMovement: ScaleCharacter_C_4 is stuck and failed to move!
+[2015.04.30-13.16.04:906][397]LogCharacterMovement: ScaleCharacter_C_4 is stuck and failed to move!
+[2015.04.30-13.16.28:941][746]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001B465940
+[2015.04.30-13.22.59:873][992]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.04.30-13.22.59:979][992]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.22.59:982][992]LogBlueprint:Warning: [compiler] Warning [1441.31] Compile of Basement successful, but with 1 Warning(s) [in 4 ms]
+[2015.04.30-13.23.00:595][992]LogSavePackage: Save=618.105652ms
+[2015.04.30-13.23.00:595][992]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Basement_Auto2C6C756B24FE9B82F029138B0EBC9E0D8.tmp' to '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Autosaves/Game/Maps/Basement_Auto2.umap'
+[2015.04.30-13.23.00:601][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Basement' took 0.728
+[2015.04.30-13.23.00:601][992]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.728
+[2015.04.30-13.23.00:612][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Speedpad] ([1] browsable assets)...
+[2015.04.30-13.23.00:612][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Speedpad]
+[2015.04.30-13.23.00:644][992]LogSavePackage: Save=17.591837ms
+[2015.04.30-13.23.00:644][992]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Speedpad_Auto2A3E73EEA4BAA945AC74D53B4BC1E6665.tmp' to '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Autosaves/Game/Blueprints/Speedpad_Auto2.uasset'
+[2015.04.30-13.23.00:647][992]LogFileHelpers: Auto-saving content packages took 0.046
+[2015.04.30-13.26.14:134][160]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.26.14:137][160]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.26.14:139][160]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.26.14:177][160]LogBlueprint:Warning: [compiler] Warning [1635.50] Compile of Basement successful, but with 1 Warning(s) [in 39 ms]
+[2015.04.30-13.26.14:177][160]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.04.30-13.26.14:203][160]LogPlayLevel: PIE:  Blueprint regeneration took 69 ms (1 blueprints)
+[2015.04.30-13.26.14:203][160]PIE: New page: PIE session: Basement (30 Apr 2015 15:26:14)
+[2015.04.30-13.26.14:216][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013295s)
+[2015.04.30-13.26.14:217][160]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2015.04.30-13.26.14:217][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.014309s)
+[2015.04.30-13.26.14:249][160]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.26.14:251][160]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.26.14:252][160]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.26.14:252][160]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.26.14:252][160]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.26.14:257][160]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.26.14
+[2015.04.30-13.26.14:260][160]LogWorld: Bringing up level for play took: 0.009018
+[2015.04.30-13.26.14:261][160]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.14:261][160]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.14:261][160]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.14:262][160]LogBlueprintUserMessages: 0
+[2015.04.30-13.26.14:262][160]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement 0.805
+[2015.04.30-13.26.26:779][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B426C00
+[2015.04.30-13.26.28:125][877]LogEditorViewport: Clicking on Actor (LMB): Speedpad_C (Speedpad)
+[2015.04.30-13.26.38:635][346]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.26.38:639][346]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.26.38:641][346]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.26.38:677][346]LogBlueprint:Warning: [compiler] Warning [1660.00] Compile of Basement successful, but with 1 Warning(s) [in 36 ms]
+[2015.04.30-13.26.38:677][346]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.04.30-13.26.38:697][346]LogPlayLevel: PIE:  Blueprint regeneration took 62 ms (1 blueprints)
+[2015.04.30-13.26.38:697][346]PIE: New page: PIE session: Basement (30 Apr 2015 15:26:38)
+[2015.04.30-13.26.38:713][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015871s)
+[2015.04.30-13.26.38:714][346]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2015.04.30-13.26.38:714][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.016678s)
+[2015.04.30-13.26.38:746][346]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.26.38:748][346]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.26.38:749][346]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.26.38:749][346]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.26.38:749][346]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.26.38:752][346]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.26.38
+[2015.04.30-13.26.38:754][346]LogWorld: Bringing up level for play took: 0.006114
+[2015.04.30-13.26.38:755][346]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.38:755][346]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.38:755][346]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.38:756][346]LogBlueprintUserMessages: 0
+[2015.04.30-13.26.38:756][346]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement -0.702
+[2015.04.30-13.26.53:813][149]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.53:813][149]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.53:813][149]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.26.53:814][149]LogBlueprintUserMessages: 0
+[2015.04.30-13.26.55:956][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B38BF60
+[2015.04.30-13.27.11:146][813]LogEditorViewport: Clicking on Actor (LMB): BoxChair_C (BoxChair3)
+[2015.04.30-13.27.12:855][901]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.12:887][902]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.12:914][903]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.12:938][904]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.13:113][913]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.13:142][914]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.13:168][915]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.13:396][927]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:657][992]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:686][993]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:733][995]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:759][996]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:785][997]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:810][998]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:835][999]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.14:860][  0]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.15:148][ 15]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.15:177][ 16]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.15:507][ 33]LogBlueprintUserMessages: 78097.59375
+[2015.04.30-13.27.26:194][466]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Temp_Box3)
+[2015.04.30-13.27.26:202][466]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.27.27:002][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Temp_Box3)
+[2015.04.30-13.27.27:010][506]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.27.27:615][536]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal44)
+[2015.04.30-13.28.10:594][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MetalGearBox)
+[2015.04.30-13.28.10:602][399]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.28.11:634][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MetalGearBox)
+[2015.04.30-13.28.11:642][451]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.04.30-13.28.12:115][475]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal52)
+[2015.04.30-13.28.15:014][617]LogEditorViewport: Clicking on Actor (LMB): Crystal_C (Crystal53)
+[2015.04.30-13.28.34:990][520]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.28.34:994][520]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.28.35:022][520]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.28.35:057][520]LogBlueprint:Warning: [compiler] Warning [1776.38] Compile of Basement successful, but with 1 Warning(s) [in 36 ms]
+[2015.04.30-13.28.35:083][520]LogPlayLevel: PIE:  Blueprint regeneration took 92 ms (1 blueprints)
+[2015.04.30-13.28.35:083][520]PIE: New page: PIE session: Basement (30 Apr 2015 15:28:35)
+[2015.04.30-13.28.35:095][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011729s)
+[2015.04.30-13.28.35:095][520]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2015.04.30-13.28.35:096][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.012684s)
+[2015.04.30-13.28.35:123][520]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.28.35:124][520]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.28.35:125][520]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.28.35:125][520]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.28.35:125][520]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.28.35:129][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.28.35
+[2015.04.30-13.28.35:131][520]LogWorld: Bringing up level for play took: 0.006880
+[2015.04.30-13.28.35:133][520]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.28.35:133][520]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.28.35:133][520]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.28.35:133][520]LogBlueprintUserMessages: 0
+[2015.04.30-13.28.35:134][520]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement -0.325
+[2015.04.30-13.28.46:074][ 71]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000B38B920
+[2015.04.30-13.29.10:628][ 77]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.30-13.29.10:631][ 77]LogPlayLevel: [PIE] Compiling Basement before PIE...
+[2015.04.30-13.29.10:633][ 77]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.29.10:667][ 77]LogBlueprint:Warning: [compiler] Warning [1811.99] Compile of Basement successful, but with 1 Warning(s) [in 34 ms]
+[2015.04.30-13.29.10:688][ 77]LogPlayLevel: PIE:  Blueprint regeneration took 60 ms (1 blueprints)
+[2015.04.30-13.29.10:688][ 77]PIE: New page: PIE session: Basement (30 Apr 2015 15:29:10)
+[2015.04.30-13.29.10:700][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011452s)
+[2015.04.30-13.29.10:700][ 77]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2015.04.30-13.29.10:700][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Basement.Basement to /Game/Maps/UEDPIE_0_Basement.Basement (0.012287s)
+[2015.04.30-13.29.10:730][ 77]LogWorld: Game class is 'MyGame_C'
+[2015.04.30-13.29.10:731][ 77]LogAIModule: Creating AISystem for world Basement
+[2015.04.30-13.29.10:732][ 77]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[2] has negative scale. Not currently supported
+[2015.04.30-13.29.10:732][ 77]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[3] has negative scale. Not currently supported
+[2015.04.30-13.29.10:732][ 77]LogPhysics:Warning: AddConvexElemsToRigidActor: [/Game/StaticFromBSP/Cabinet.Cabinet] ConvexElem[4] has negative scale. Not currently supported
+[2015.04.30-13.29.10:736][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2015.04.30-14.29.10
+[2015.04.30-13.29.10:738][ 77]LogWorld: Bringing up level for play took: 0.006624
+[2015.04.30-13.29.10:739][ 77]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.29.10:739][ 77]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.29.10:739][ 77]LogPhysics:Warning: FConstraintInstance::GetRefFrame : Contained scale.
+[2015.04.30-13.29.10:740][ 77]LogBlueprintUserMessages: 0
+[2015.04.30-13.29.10:740][ 77]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Basement -0.718
+[2015.04.30-13.29.21:597][659]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ACA84A0
+[2015.04.30-13.33.52:930][796]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.33.52:934][796]LogBlueprint:Warning: [compiler] Warning [2094.25] Compile of Basement successful, but with 1 Warning(s) [in 4 ms]
+[2015.04.30-13.33.53:526][796]LogSavePackage: Save=597.150269ms
+[2015.04.30-13.33.53:526][796]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Basement_Auto319736CFD48245C5EE5BE4F9B58B7E49D.tmp' to '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Autosaves/Game/Maps/Basement_Auto3.umap'
+[2015.04.30-13.33.53:531][796]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Basement' took 0.692
+[2015.04.30-13.33.53:531][796]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.692
+[2015.04.30-13.37.50:030][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Basement" FILE="../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Content/Maps/Basement.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.04.30-13.37.50:061][568]LogBlueprint:Warning: [compiler] Warning Could not find a function named "ShowText" in 'Basement'.
+Make sure 'Basement' has been compiled for  Invalid Message Node 
+[2015.04.30-13.37.50:064][568]LogBlueprint:Warning: [compiler] Warning [2331.38] Compile of Basement successful, but with 1 Warning(s) [in 4 ms]
+[2015.04.30-13.37.50:642][568]LogSavePackage: Save=583.064331ms
+[2015.04.30-13.37.50:642][568]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Basement6689C5244C1F0E3E03B452BE7A4A4A34.tmp' to '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Content/Maps/Basement.umap'
+[2015.04.30-13.37.50:771][568]LogFileHelpers: Saving map 'Basement' took 0.861
+[2015.04.30-13.37.50:773][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Speedpad" FILE="../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Content/Blueprints/Speedpad.uasset" SILENT=true
+[2015.04.30-13.37.50:796][568]LogSavePackage: Save=9.417513ms
+[2015.04.30-13.37.50:796][568]LogSavePackage: Moving '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Saved/Speedpad6C524D844838EAFC8BE5939BA674D7BE.tmp' to '../../../../../../Users/Fulltime/Documents/Level26 - Copy/MyProject4/Content/Blueprints/Speedpad.uasset'
+[2015.04.30-13.37.52:345][601]Cmd: QUIT_EDITOR
+[2015.04.30-13.37.52:660][601]LogExit: Preparing to exit.
+[2015.04.30-13.37.53:194][601]LogExit: Editor shut down
+[2015.04.30-13.37.53:194][601]LogExit: Transaction tracking system shut down
+[2015.04.30-13.37.53:195][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019303060
+[2015.04.30-13.37.53:196][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CF999E0
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003D0C860
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022BEF9C0
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002376DC60
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000240ED260
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000025F8D260
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026557740
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000243EEE80
+[2015.04.30-13.37.53:197][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D3CB420
+[2015.04.30-13.37.53:198][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AEA31A0
+[2015.04.30-13.37.53:198][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002AEA2DE0
+[2015.04.30-13.37.53:257][601]LogExit: Object subsystem successfully closed.
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.04.30-13.37.53:298][601]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.04.30-13.37.53:299][601]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.04.30-13.37.53:322][601]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.04.30-13.37.53:322][601]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.04.30-13.37.53:322][601]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.04.30-13.37.53:334][601]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.04.30-13.37.53:334][601]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.04.30-13.37.53:334][601]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.04.30-13.37.53:334][601]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.04.30-13.37.53:341][601]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.04.30-13.37.53:352][601]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.04.30-13.37.53:352][601]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.04.30-13.37.53:352][601]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.04.30-13.37.53:353][601]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.04.30-13.37.53:396][601]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.04.30-13.37.53:396][601]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.30-13.37.53:396][601]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.30-13.37.53:396][601]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.30-13.37.53:396][601]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.30-13.37.53:396][601]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.30-13.37.53:398][601]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.30-13.37.53:408][601]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.30-13.37.53:408][601]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.04.30-13.37.53:417][601]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.04.30-13.37.53:447][601]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.04.30-13.37.53:447][601]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.04.30-13.37.53:447][601]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.30-13.37.53:447][601]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.30-13.37.53:447][601]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.30-13.37.53:447][601]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.30-13.37.53:447][601]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.04.30-13.37.53:467][601]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.04.30-13.37.53:469][601]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.04.30-13.37.53:569][601]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.04.30-13.37.53:569][601]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.04.30-13.37.53:569][601]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.04.30-13.37.53:574][601]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.04.30-13.37.53:575][601]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.04.30-13.37.53:575][601]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.04.30-13.37.53:575][601]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.04.30-13.37.53:575][601]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.04.30-13.37.53:576][601]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.04.30-13.37.53:576][601]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.04.30-13.37.53:580][601]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.04.30-13.37.53:612][601]LogDerivedDataCache: Shutdown
+[2015.04.30-13.37.53:612][601]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.04.30-13.37.53:649][601]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.04.30-13.37.53:649][601]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.04.30-13.37.53:657][601]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.30-13.37.53:658][601]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.30-13.37.53:659][601]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.30-13.37.53:662][601]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.30-13.37.53:671][601]LogExit: Exiting.
+[2015.04.30-13.37.53:683][601]Log file closed, 04/30/15 14:37:53
